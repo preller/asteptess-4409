@@ -1,0 +1,14 @@
+#name,value,fit,bounds,label,unit,truth
+#companion b astrophysical params,,,,,,
+b_rr,0.092,1,uniform 0.05 0.15,$R_b / R_\star$,,0.092
+b_rsuma,0.0154,1,uniform 0.01 0.02,$(R_\star + R_b) / a_b$,,0.0154
+b_cosi,0,1,uniform 0.0 0.2,$\cos{i_b}$,,0.01745
+b_epoch,1336.410853,1,uniform 1335.910853 1336.910853,$T_{0;b}$,BJD,
+b_period,92.492276010932,1,uniform 92.49148322 92.4930688,$P_b$,days,92.492276010932
+#limb darkening coefficients per instrument,,,,,,
+host_ldc_q1_TESS,0.5,1,uniform 0.0 1.0,$q_{1; \mathrm{TESS}}$,,0.64
+host_ldc_q2_TESS,0.5,1,uniform 0.0 1.0,$q_{2; \mathrm{TESS}}$,,0.38
+#errors per instrument,,,,,,
+ln_err_flux_TESS,-7,1,uniform -8 -5,$\log{\sigma_\mathrm{TESS}}$,$\log{ \mathrm{rel. flux.} }$,
+#baseline per instrument,,,,,,
+baseline_offset_flux_TESS,0,1,uniform -0.003 0.003,$\mathrm{gp: \log{\sigma} (TESS)}$,,
