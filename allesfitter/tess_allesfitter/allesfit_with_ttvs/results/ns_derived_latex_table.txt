@@ -1,0 +1,9 @@
+Parameter & Value & Source \\ 
+\hline 
+\multicolumn{3}{c}{\textit{Derived parameters}} \\ 
+\hline 
+Transit depth (undil.) b; $\delta_\mathrm{tr; undil; b; TESS}$ (ppt) & $10.541_{-0.079}^{+0.064}$ & derived \\ 
+Transit depth (dil.) b; $\delta_\mathrm{tr; dil; b; TESS}$ (ppt) & $10.541_{-0.079}^{+0.064}$ & derived \\ 
+Limb darkening; $u_\mathrm{1; TESS}$ & $0.073_{-0.053}^{+0.10}$ & derived \\ 
+Limb darkening; $u_\mathrm{2; TESS}$ & $0.482_{-0.12}^{+0.091}$ & derived \\ 
+Combined host density from all orbits; $rho_\mathrm{\star; combined}$ (cgs) & $1.5\pm0.0$ & derived \\ 

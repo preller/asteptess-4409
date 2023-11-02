@@ -1,0 +1,21 @@
+parameter & value & unit & fit/fixed \\ 
+\hline 
+\multicolumn{4}{c}{\textit{Fitted parameters}} \\ 
+\hline 
+$R_b / R_\star$ & $0.09966504322433017$ & & fixed \\ 
+$(R_\star + R_b) / a_b$ & $0.012592188259948553$ & & fixed \\ 
+$\cos{i_b}$ & $0.0073685180431900645$ & & fixed \\ 
+$T_{0;b}$ & $2261.323$ & BJD& fixed \\ 
+$P_b$ & $92.4889$ & days& fixed \\ 
+$q_{1; \mathrm{TESS}}$ & $0.322\pm0.071$ & & fit \\ 
+$q_{2; \mathrm{TESS}}$ & $0.16_{-0.11}^{+0.19}$ & & fit \\ 
+$\log{\sigma_\mathrm{TESS}}$ & $-4.847\pm0.011$ & log (rel. flux)& fit \\ 
+$\mathrm{offset (TESS)}$ & $-0.000\pm0.068$ & rel. flux& fit \\ 
+TTV$_\mathrm{b;1}$ & $-0.0267\pm0.0027$ & d& fit \\ 
+TTV$_\mathrm{b;2}$ & $-0.0093\pm0.0024$ & d& fit \\ 
+TTV$_\mathrm{b;3}$ & $-0.0093_{-0.0024}^{+0.0027}$ & d& fit \\ 
+TTV$_\mathrm{b;4}$ & $0.0016\pm0.0022$ & d& fit \\ 
+TTV$_\mathrm{b;5}$ & $0.0053\pm0.0017$ & d& fit \\ 
+TTV$_\mathrm{b;6}$ & $0.0037\pm0.0014$ & d& fit \\ 
+TTV$_\mathrm{b;7}$ & $0.0106\pm0.0014$ & d& fit \\ 
+TTV$_\mathrm{b;8}$ & $0.0338\pm0.0034$ & d& fit \\ 

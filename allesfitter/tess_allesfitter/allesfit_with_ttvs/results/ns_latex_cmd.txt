@@ -1,0 +1,17 @@
+\newcommand{\brr}{$0.09966504322433017$} %$R_b / R_\star=0.09966504322433017$ 
+\newcommand{\brsuma}{$0.012592188259948553$} %$(R_\star + R_b) / a_b=0.012592188259948553$ 
+\newcommand{\bcosi}{$0.0073685180431900645$} %$\cos{i_b}=0.0073685180431900645$ 
+\newcommand{\bepoch}{$2261.323$} %$T_{0;b}=2261.323$ BJD
+\newcommand{\bperiod}{$92.4889$} %$P_b=92.4889$ days
+\newcommand{\hostldcqoneTESS}{$0.315_{-0.064}^{+0.070}$} %$q_{1; \mathrm{TESS}}=0.315_{-0.064}^{+0.070}$ 
+\newcommand{\hostldcqtwoTESS}{$0.065_{-0.047}^{+0.095}$} %$q_{2; \mathrm{TESS}}=0.065_{-0.047}^{+0.095}$ 
+\newcommand{\lnerrfluxTESS}{$-4.8438\pm0.0065$} %$\log{\sigma_\mathrm{TESS}}=-4.8438\pm0.0065$ log (rel. flux)
+\newcommand{\baselineoffsetfluxTESS}{$-0.002\pm0.069$} %$\mathrm{offset (TESS)}=-0.002\pm0.069$ rel. flux
+\newcommand{\bttvtransitone}{$-0.0264\pm0.0025$} %TTV$_\mathrm{b;1}=-0.0264\pm0.0025$ d
+\newcommand{\bttvtransittwo}{$-0.0093\pm0.0025$} %TTV$_\mathrm{b;2}=-0.0093\pm0.0025$ d
+\newcommand{\bttvtransitthree}{$-0.0094_{-0.0023}^{+0.0026}$} %TTV$_\mathrm{b;3}=-0.0094_{-0.0023}^{+0.0026}$ d
+\newcommand{\bttvtransit4}{$0.0013_{-0.0023}^{+0.0022}$} %TTV$_\mathrm{b;4}=0.0013_{-0.0023}^{+0.0022}$ d
+\newcommand{\bttvtransit5}{$0.0053\pm0.0018$} %TTV$_\mathrm{b;5}=0.0053\pm0.0018$ d
+\newcommand{\bttvtransit6}{$0.0037\pm0.0014$} %TTV$_\mathrm{b;6}=0.0037\pm0.0014$ d
+\newcommand{\bttvtransit7}{$0.0106\pm0.0014$} %TTV$_\mathrm{b;7}=0.0106\pm0.0014$ d
+\newcommand{\bttvtransit8}{$0.0339\pm0.0032$} %TTV$_\mathrm{b;8}=0.0339\pm0.0032$ d
