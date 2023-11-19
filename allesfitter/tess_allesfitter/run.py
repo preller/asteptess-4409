@@ -41,6 +41,6 @@ os.chdir(dir_path)
 
 # For multi instrument fits:
 # allesfitter.prepare_ttv_fit('allesfit_with_ttvs')
-allesfitter.show_initial_guess('allesfit_ephemerides_multi_instrument-tests')
-allesfitter.ns_fit('allesfit_ephemerides_multi_instrument-tests')
-allesfitter.ns_output('allesfit_ephemerides_multi_instrument-tests')
+allesfitter.show_initial_guess('allesfit_ephemerides_only_first_4_tess_bjd')
+allesfitter.ns_fit('allesfit_ephemerides_only_first_4_tess_bjd')
+allesfitter.ns_output('allesfit_ephemerides_only_first_4_tess_bjd')
