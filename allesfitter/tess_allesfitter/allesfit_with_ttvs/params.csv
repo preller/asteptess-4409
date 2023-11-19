@@ -11,7 +11,7 @@ host_ldc_q2_TESS,0.5,1,uniform 0.0 1.0,$q_{2; \mathrm{TESS}}$,,
 #errors per instrument,,,,,
 log_err_flux_TESS,-6,1,uniform -12.0 0.0,$\log{\sigma_\mathrm{TESS}}$,log (rel. flux),
 #baseline per instrument,,,,,
-baseline_offset_flux_TESS,0,1,uniform -0.1 0.1,$\mathrm{offset (TESS)}$,rel. flux,
+#baseline_offset_flux_TESS,0,1,uniform -0.1 0.1,$\mathrm{offset (TESS)}$,rel. flux,
 #TTV companion b
 b_ttv_transit_1,0,1,uniform -0.05 0.05,TTV$_\mathrm{b;1}$,d,
 b_ttv_transit_2,0,1,uniform -0.05 0.05,TTV$_\mathrm{b;2}$,d,
