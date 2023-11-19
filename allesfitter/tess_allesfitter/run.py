@@ -29,11 +29,18 @@ os.chdir(dir_path)
 
 # For TTV fits:
 # allesfitter.prepare_ttv_fit('allesfit_with_ttvs')
-allesfitter.show_initial_guess('allesfit_with_ttvs')
-allesfitter.ns_fit('allesfit_with_ttvs')
-allesfitter.ns_output('allesfit_with_ttvs')
+# allesfitter.show_initial_guess('allesfit_with_ttvs')
+# allesfitter.ns_fit('allesfit_with_ttvs')
+# allesfitter.ns_output('allesfit_with_ttvs')
 
 # with TTVS = b_ttv_transit_1,0,1,uniform -0.04167 0.04167,TTV$_\mathrm{b;1}$,d,
 # allesfitter.show_initial_guess('allesfit_with_ttvs_1hour')
 # allesfitter.ns_fit('allesfit_with_ttvs_1hour')
 # allesfitter.ns_output('allesfit_with_ttvs_1hour')
+
+
+# For multi instrument fits:
+# allesfitter.prepare_ttv_fit('allesfit_with_ttvs')
+allesfitter.show_initial_guess('allesfit_ephemerides_multi_instrument-tests')
+allesfitter.ns_fit('allesfit_ephemerides_multi_instrument-tests')
+allesfitter.ns_output('allesfit_ephemerides_multi_instrument-tests')
