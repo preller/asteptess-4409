@@ -46,6 +46,23 @@ os.chdir(dir_path)
 # allesfitter.ns_output('allesfit_ephemerides_only_first_4_tess_bjd')
 
 
-allesfitter.show_initial_guess('allesfit_ephemerides_chat')
-allesfitter.ns_fit('allesfit_ephemerides_chat')
-allesfitter.ns_output('allesfit_ephemerides_chat')
+# allesfitter.show_initial_guess('allesfit_ephemerides_chat')
+# allesfitter.ns_fit('allesfit_ephemerides_chat')
+# allesfitter.ns_output('allesfit_ephemerides_chat')
+
+
+# allesfitter.show_initial_guess('allesfit_ephemerides_multi_instrument-tests')
+# allesfitter.ns_fit('allesfit_ephemerides_multi_instrument-tests')
+# allesfitter.ns_output('allesfit_ephemerides_multi_instrument-tests')
+
+
+# allesfitter.show_initial_guess('allesfit_ephemerides_multi_instrument')
+# allesfitter.ns_fit('allesfit_ephemerides_multi_instrument')
+# allesfitter.ns_output('allesfit_ephemerides_multi_instrument')
+
+dirname = "allesfit_ephemerides_multi_instrument_tess_fixed_params"
+
+
+allesfitter.show_initial_guess(dirname)
+allesfitter.ns_fit(dirname)
+allesfitter.ns_output(dirname)
