@@ -61,6 +61,10 @@ os.chdir(dir_path)
 # allesfitter.ns_output('allesfit_ephemerides_multi_instrument')
 
 dirname = "allesfit_ephemerides_multi_instrument_tess_fixed_params"
+dirname = "allesfit_ephemerides_multi_instrument_astepchatomes_fixed_params"
+dirname = "allesfit_with_ttvs"
+dirname = "allesfit_ttvs_multi_instrument_tess_fixed_params"
+dirname = "allesfit_ttvs_multi_instrument_astepchatomes_fixed_params"
 
 
 allesfitter.show_initial_guess(dirname)
