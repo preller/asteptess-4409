@@ -161,7 +161,7 @@ cython_debug/
 
 
 ### MANUAL ENTRIES ###
-data/
+#data/
 toi4409/mastDownload/
 toi4409/large_files/
 ETC/
