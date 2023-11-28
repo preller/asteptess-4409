@@ -1,0 +1,20 @@
+#property,value,lower_error,upper_error,source
+Host radius over semi-major axis b; $R_\star/a_\mathrm{b}$,0.007573898908990441,0.00032779956954671983,0.0003480224736862568,derived
+Semi-major axis b over host radius; $a_\mathrm{b}/R_\star$,132.0323933572668,5.800390829855331,5.972891024712055,derived
+Companion radius b over semi-major axis b; $R_\mathrm{b}/a_\mathrm{b}$,0.0017326777512430734,0.0001155577991046187,0.0001223398721714908,derived
+Inclination b; $i_\mathrm{b}$ (deg),89.95030136114418,0.0456342954904585,0.033633352390651794,derived
+Impact parameter b; $b_\mathrm{tra;b}$,0.11439984564095917,0.07734943294675445,0.10576615566629588,derived
+Total transit duration b; $T_\mathrm{tot;b}$ (h),6.516475394517886,0.3191909145738032,0.3404253568721467,derived
+Full-transit duration b; $T_\mathrm{full;b}$ (h),4.05196089879329,0.20438569484115066,0.19879292988876074,derived
+Transit depth (undil.) b; $\delta_\mathrm{tr; undil; b; CHAT_I}$ (ppt),65.03894111730635,8.196974609928965,12.153814719968011,derived
+Transit depth (dil.) b; $\delta_\mathrm{tr; dil; b; CHAT_I}$ (ppt),65.03894111730635,8.196974609928965,12.153814719968011,derived
+Transit depth (undil.) b; $\delta_\mathrm{tr; undil; b; OMES_R}$ (ppt),84.33487203076085,5.486219058454921,5.715344579126921,derived
+Transit depth (dil.) b; $\delta_\mathrm{tr; dil; b; OMES_R}$ (ppt),84.33487203076085,5.486219058454921,5.715344579126921,derived
+Transit depth (undil.) b; $\delta_\mathrm{tr; undil; b; OMES_I}$ (ppt),67.08856603450575,8.982441147686195,11.059320010012755,derived
+Transit depth (dil.) b; $\delta_\mathrm{tr; dil; b; OMES_I}$ (ppt),67.08856603450575,8.982441147686195,11.059320010012755,derived
+Limb darkening; $u_\mathrm{1; CHAT_I}$,0.5741281471678534,0.4002609216908303,0.5954579900064192,derived
+Limb darkening; $u_\mathrm{2; CHAT_I}$,-0.024198566359522913,0.3953830091673945,0.40560001152020025,derived
+Limb darkening; $u_\mathrm{1; OMES_R}$,1.5639890229010924,0.10031829980082252,0.09229983414849885,derived
+Limb darkening; $u_\mathrm{2; OMES_R}$,-0.7205369139923882,0.06601932983471104,0.09488193852983595,derived
+Limb darkening; $u_\mathrm{1; OMES_I}$,0.6595479899953662,0.4570511006773006,0.5480709192908848,derived
+Limb darkening; $u_\mathrm{2; OMES_I}$,0.011090374455112118,0.44218508531440126,0.46257178879530725,derived

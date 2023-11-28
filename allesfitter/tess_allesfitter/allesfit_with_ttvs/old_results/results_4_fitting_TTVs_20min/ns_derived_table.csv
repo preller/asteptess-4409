@@ -1,6 +1,0 @@
-#property,value,lower_error,upper_error,source
-Transit depth (undil.) b; $\delta_\mathrm{tr; undil; b; TESS}$ (ppt),10.565377351558048,0.07621612559039015,0.0661544632660771,derived
-Transit depth (dil.) b; $\delta_\mathrm{tr; dil; b; TESS}$ (ppt),10.565377351558048,0.07621612559039015,0.0661544632660771,derived
-Limb darkening; $u_\mathrm{1; TESS}$,0.2579972618906674,0.16906774722643975,0.21847343800916774,derived
-Limb darkening; $u_\mathrm{2; TESS}$,0.315783149695939,0.2586019820572115,0.20158728359012013,derived
-Combined host density from all orbits; $rho_\mathrm{\star; combined}$ (cgs),1.4728232822692737,0.0,0.0,derived

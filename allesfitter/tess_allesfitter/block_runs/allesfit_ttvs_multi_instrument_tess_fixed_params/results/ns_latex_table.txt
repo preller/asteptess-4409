@@ -1,0 +1,29 @@
+parameter & value & unit & fit/fixed \\ 
+\hline 
+\multicolumn{4}{c}{\textit{Fitted parameters}} \\ 
+\hline 
+$R_b / R_\star$ & $0.092$ & & fixed \\ 
+$(R_\star + R_b) / a_b$ & $0.0154$ & & fixed \\ 
+$\cos{i_b}$ & $0.0$ & & fixed \\ 
+$T_{0;b}$ & $2459261.299853$ & BJD& fixed \\ 
+$P_b$ & $92.4889$ & days& fixed \\ 
+$q_{1; \mathrm{TESS_1800s}}$ & $0.5$ & & fixed \\ 
+$q_{2; \mathrm{TESS_1800s}}$ & $0.5$ & & fixed \\ 
+$q_{1; \mathrm{TESS_600s}}$ & $0.5$ & & fixed \\ 
+$q_{2; \mathrm{TESS_600s}}$ & $0.5$ & & fixed \\ 
+$q_{1; \mathrm{TESS_180s}}$ & $0.5$ & & fixed \\ 
+$q_{2; \mathrm{TESS_180s}}$ & $0.0$ & & fixed \\ 
+$\log{\sigma_\mathrm{TESS_1800s}}$ & $-7.0$ & $\log{ \mathrm{rel. flux.} }$& fixed \\ 
+$\log{\sigma_\mathrm{TESS_600s}}$ & $-7.0$ & $\log{ \mathrm{rel. flux.} }$& fixed \\ 
+$\log{\sigma_\mathrm{TESS_180s}}$ & $-7.0$ & $\log{ \mathrm{rel. flux.} }$& fixed \\ 
+$\mathrm{gp: \log{\sigma} (TESS_1800s)}$ & $0.0$ & & fixed \\ 
+$\mathrm{gp: \log{\sigma} (TESS_600s)}$ & $0.0$ & & fixed \\ 
+$\mathrm{gp: \log{\sigma} (TESS_180s)}$ & $0.0$ & & fixed \\ 
+TTV$_\mathrm{b;1}$ & $-0.0142_{-0.0032}^{+0.0035}$ & d& fit \\ 
+TTV$_\mathrm{b;2}$ & $0.0008_{-0.0035}^{+0.0061}$ & d& fit \\ 
+TTV$_\mathrm{b;3}$ & $0.0097_{-0.0029}^{+0.0031}$ & d& fit \\ 
+TTV$_\mathrm{b;4}$ & $0.0420\pm0.0034$ & d& fit \\ 
+TTV$_\mathrm{b;5}$ & $0.03973\pm0.00057$ & d& fit \\ 
+TTV$_\mathrm{b;6}$ & $0.01488\pm0.00042$ & d& fit \\ 
+TTV$_\mathrm{b;7}$ & $0.02419\pm0.00035$ & d& fit \\ 
+TTV$_\mathrm{b;8}$ & $-0.02116\pm0.00095$ & d& fit \\ 

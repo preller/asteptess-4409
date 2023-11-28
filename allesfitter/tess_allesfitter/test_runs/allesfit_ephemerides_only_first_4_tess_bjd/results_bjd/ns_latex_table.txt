@@ -1,0 +1,13 @@
+parameter & value & unit & fit/fixed \\ 
+\hline 
+\multicolumn{4}{c}{\textit{Fitted parameters}} \\ 
+\hline 
+$R_b / R_\star$ & $0.0978_{-0.0030}^{+0.0029}$ & & fit \\ 
+$(R_\star + R_b) / a_b$ & $0.0112\pm0.0010$ & & fit \\ 
+$\cos{i_b}$ & $0.0051_{-0.0025}^{+0.0017}$ & & fit \\ 
+$T_{0;b}$ & $2458521.4019\pm0.0016$ & BJD& fit \\ 
+$P_b$ & $92.4944\pm0.0012$ & days& fit \\ 
+$q_{1; \mathrm{TESS_1800s}}$ & $0.43_{-0.22}^{+0.33}$ & & fit \\ 
+$q_{2; \mathrm{TESS_1800s}}$ & $0.31_{-0.20}^{+0.34}$ & & fit \\ 
+$\log{\sigma_\mathrm{TESS_1800s}}$ & $-6.828\pm0.053$ & $\log{ \mathrm{rel. flux.} }$& fit \\ 
+$\mathrm{gp: \log{\sigma} (TESS_1800s)}$ & $-0.0000\pm0.0020$ & & fit \\ 

@@ -1,0 +1,11 @@
+#property,value,lower_error,upper_error,source
+Total transit duration b; $T_\mathrm{tot;b}$ (h),10.882427948800968,2.9679222777190262e-05,3.290968296099095e-05,derived
+Full-transit duration b; $T_\mathrm{full;b}$ (h),9.048648377248286,2.467802702632582e-05,2.7364127815232564e-05,derived
+Host density from orbit b; $\rho_\mathrm{\star;b}$ (cgs),0.7883242770850076,4.767940475880472e-06,4.299949912578427e-06,derived
+Transit depth (undil.) b; $\delta_\mathrm{tr; undil; b; CHAT_I}$ (ppt),11.026904484353285,0.0,0.0,derived
+Transit depth (dil.) b; $\delta_\mathrm{tr; dil; b; CHAT_I}$ (ppt),11.026904484353285,0.0,0.0,derived
+Transit depth (undil.) b; $\delta_\mathrm{tr; undil; b; OMES_R}$ (ppt),11.026904484353285,0.0,0.0,derived
+Transit depth (dil.) b; $\delta_\mathrm{tr; dil; b; OMES_R}$ (ppt),11.026904484353285,0.0,0.0,derived
+Transit depth (undil.) b; $\delta_\mathrm{tr; undil; b; OMES_I}$ (ppt),11.026904484353285,0.0,0.0,derived
+Transit depth (dil.) b; $\delta_\mathrm{tr; dil; b; OMES_I}$ (ppt),11.026904484353285,0.0,0.0,derived
+Combined host density from all orbits; $rho_\mathrm{\star; combined}$ (cgs),0.7883242770850076,4.767940475880472e-06,4.299949912578427e-06,derived

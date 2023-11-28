@@ -1,7 +1,0 @@
-\newcommand{\bdepthtrundilTESSone800s}{$11\pm0.0$} %Transit depth (undil.) b; $\delta_\mathrm{tr; undil; b; TESS_1800s}$ (ppt) = $11\pm0.0$
-\newcommand{\bdepthtrdilTESSone800s}{$11\pm0.0$} %Transit depth (dil.) b; $\delta_\mathrm{tr; dil; b; TESS_1800s}$ (ppt) = $11\pm0.0$
-\newcommand{\bdepthtrundilTESS600s}{$11\pm0.0$} %Transit depth (undil.) b; $\delta_\mathrm{tr; undil; b; TESS_600s}$ (ppt) = $11\pm0.0$
-\newcommand{\bdepthtrdilTESS600s}{$11\pm0.0$} %Transit depth (dil.) b; $\delta_\mathrm{tr; dil; b; TESS_600s}$ (ppt) = $11\pm0.0$
-\newcommand{\bdepthtrundilTESSone80s}{$8.5\pm0.0$} %Transit depth (undil.) b; $\delta_\mathrm{tr; undil; b; TESS_180s}$ (ppt) = $8.5\pm0.0$
-\newcommand{\bdepthtrdilTESSone80s}{$8.5\pm0.0$} %Transit depth (dil.) b; $\delta_\mathrm{tr; dil; b; TESS_180s}$ (ppt) = $8.5\pm0.0$
-\newcommand{\combinedhostdensity}{$0.79\pm0.0$} %Combined host density from all orbits; $rho_\mathrm{\star; combined}$ (cgs) = $0.79\pm0.0$

@@ -1,9 +1,0 @@
-#TTV companion b,,,,,
-b_ttv_transit_1,-0.0381,1,uniform -0.0481 -0.0281,TTV$_\mathrm{b;1}$,d
-b_ttv_transit_2,0.0371,1,uniform 0.0271 0.0471,TTV$_\mathrm{b;2}$,d
-b_ttv_transit_3,-0.0150,1,uniform -0.0250 -0.0050,TTV$_\mathrm{b;3}$,d
-b_ttv_transit_4,-0.0056,1,uniform -0.0156 0.0044,TTV$_\mathrm{b;4}$,d
-b_ttv_transit_5,0.0263,1,uniform 0.0163 0.0363,TTV$_\mathrm{b;5}$,d
-b_ttv_transit_6,0.0197,1,uniform 0.0097 0.0297,TTV$_\mathrm{b;6}$,d
-b_ttv_transit_7,0.0003,1,uniform -0.0097 0.0103,TTV$_\mathrm{b;7}$,d
-b_ttv_transit_8,0.0539,1,uniform 0.0439 0.0639,TTV$_\mathrm{b;8}$,d

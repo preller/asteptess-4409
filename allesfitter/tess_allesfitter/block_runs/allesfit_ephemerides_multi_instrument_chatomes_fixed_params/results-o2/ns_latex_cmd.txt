@@ -1,0 +1,17 @@
+\newcommand{\brr}{$0.092$} %$R_b / R_\star=0.092$ 
+\newcommand{\brsuma}{$0.0154$} %$(R_\star + R_b) / a_b=0.0154$ 
+\newcommand{\bcosi}{$0.0$} %$\cos{i_b}=0.0$ 
+\newcommand{\bepoch}{$2459353.8871_{-0.0013}^{+0.0011}$} %$T_{0;b}=2459353.8871_{-0.0013}^{+0.0011}$ BJD
+\newcommand{\bperiod}{$92.49676_{-0.00025}^{+0.00028}$} %$P_b=92.49676_{-0.00025}^{+0.00028}$ days
+\newcommand{\hostldcqoneCHATI}{$0.5$} %$q_{1; \mathrm{CHAT_I}}=0.5$ 
+\newcommand{\hostldcqtwoCHATI}{$0.5$} %$q_{2; \mathrm{CHAT_I}}=0.5$ 
+\newcommand{\hostldcqoneOMESR}{$0.5$} %$q_{1; \mathrm{OMES_R}}=0.5$ 
+\newcommand{\hostldcqtwoOMESR}{$0.5$} %$q_{2; \mathrm{OMES_R}}=0.5$ 
+\newcommand{\hostldcqoneOMESI}{$0.5$} %$q_{1; \mathrm{OMES_I}}=0.5$ 
+\newcommand{\hostldcqtwoOMESI}{$0.5$} %$q_{2; \mathrm{OMES_I}}=0.5$ 
+\newcommand{\lnerrfluxCHATI}{$-7.0$} %$\log{\sigma_\mathrm{CHAT_I}}=-7.0$ $\log{ \mathrm{rel. flux.} }$
+\newcommand{\lnerrfluxOMESR}{$-7.0$} %$\log{\sigma_\mathrm{OMES_R}}=-7.0$ $\log{ \mathrm{rel. flux.} }$
+\newcommand{\lnerrfluxOMESI}{$-7.0$} %$\log{\sigma_\mathrm{OMES_I}}=-7.0$ $\log{ \mathrm{rel. flux.} }$
+\newcommand{\baselineoffsetfluxCHATI}{$0.0$} %$\mathrm{gp: \log{\sigma} (CHAT_I)}=0.0$ 
+\newcommand{\baselineoffsetfluxOMESR}{$0.0$} %$\mathrm{gp: \log{\sigma} (OMES_R)}=0.0$ 
+\newcommand{\baselineoffsetfluxOMESI}{$0.0$} %$\mathrm{gp: \log{\sigma} (OMES_I)}=0.0$ 

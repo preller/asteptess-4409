@@ -1,9 +1,0 @@
-\newcommand{\brr}{$0.1011_{-0.0022}^{+0.0018}$} %$R_b / R_\star=0.1011_{-0.0022}^{+0.0018}$ 
-\newcommand{\brsuma}{$0.01212\pm0.00091$} %$(R_\star + R_b) / a_b=0.01212\pm0.00091$ 
-\newcommand{\bcosi}{$0.0065_{-0.0015}^{+0.0013}$} %$\cos{i_b}=0.0065_{-0.0015}^{+0.0013}$ 
-\newcommand{\bepoch}{$2259.72_{-0.60}^{+0.65}$} %$T_{0;b}=2259.72_{-0.60}^{+0.65}$ BJD
-\newcommand{\bperiod}{$90.88_{-0.60}^{+0.65}$} %$P_b=90.88_{-0.60}^{+0.65}$ days
-\newcommand{\hostldcqoneTESSone800s}{$0.199_{-0.086}^{+0.17}$} %$q_{1; \mathrm{TESS_1800s}}=0.199_{-0.086}^{+0.17}$ 
-\newcommand{\hostldcqtwoTESSone800s}{$0.52\pm0.34$} %$q_{2; \mathrm{TESS_1800s}}=0.52\pm0.34$ 
-\newcommand{\lnerrfluxTESSone800s}{$-5.00037_{-0.00057}^{+0.00028}$} %$\log{\sigma_\mathrm{TESS_1800s}}=-5.00037_{-0.00057}^{+0.00028}$ $\log{ \mathrm{rel. flux.} }$
-\newcommand{\baselineoffsetfluxTESSone800s}{$-0.0001_{-0.0020}^{+0.0021}$} %$\mathrm{gp: \log{\sigma} (TESS_1800s)}=-0.0001_{-0.0020}^{+0.0021}$ 

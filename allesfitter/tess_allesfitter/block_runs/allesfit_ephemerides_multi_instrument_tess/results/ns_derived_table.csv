@@ -1,0 +1,20 @@
+#property,value,lower_error,upper_error,source
+Host radius over semi-major axis b; $R_\star/a_\mathrm{b}$,0.00990376873481092,0.00046141461407872217,0.0004594594047307582,derived
+Semi-major axis b over host radius; $a_\mathrm{b}/R_\star$,100.97166308872738,4.4766340750917095,4.9341298114075585,derived
+Companion radius b over semi-major axis b; $R_\mathrm{b}/a_\mathrm{b}$,0.0009818758017437418,5.771440171606227e-05,5.6947320496391046e-05,derived
+Inclination b; $i_\mathrm{b}$ (deg),89.72528107505939,0.05312642061649342,0.06452570479271458,derived
+Impact parameter b; $b_\mathrm{tra;b}$,0.48419064582505394,0.09589108909788174,0.06788235828109207,derived
+Total transit duration b; $T_\mathrm{tot;b}$ (h),6.905031655487241,0.06392012668353697,0.07026093293070534,derived
+Full-transit duration b; $T_\mathrm{full;b}$ (h),5.315712350026783,0.12249575446732308,0.1189041412102263,derived
+Host density from orbit b; $\rho_\mathrm{\star;b}$ (cgs),2.276384012430497,0.28954181914338384,0.35028481881006934,derived
+Transit depth (undil.) b; $\delta_\mathrm{tr; undil; b; TESS_1800s}$ (ppt),10.998165504072954,0.2051381447725209,0.204824760850709,derived
+Transit depth (dil.) b; $\delta_\mathrm{tr; dil; b; TESS_1800s}$ (ppt),10.998165504072954,0.2051381447725209,0.204824760850709,derived
+Transit depth (undil.) b; $\delta_\mathrm{tr; undil; b; TESS_600s}$ (ppt),10.885109782983736,0.1335779128234229,0.12127325232291852,derived
+Transit depth (dil.) b; $\delta_\mathrm{tr; dil; b; TESS_600s}$ (ppt),10.885109782983736,0.1335779128234229,0.12127325232291852,derived
+Transit depth (undil.) b; $\delta_\mathrm{tr; undil; b; TESS_180s}$ (ppt),9.828451645009562,0.282300285228132,0.24152620083239817,derived
+Transit depth (dil.) b; $\delta_\mathrm{tr; dil; b; TESS_180s}$ (ppt),9.828451645009562,0.282300285228132,0.24152620083239817,derived
+Limb darkening; $u_\mathrm{1; TESS_1800s}$,0.5043646075650108,0.23557560901109625,0.19346271068962317,derived
+Limb darkening; $u_\mathrm{2; TESS_1800s}$,-0.027999921258712385,0.24279070648462917,0.32784054908260024,derived
+Limb darkening; $u_\mathrm{1; TESS_600s}$,0.5720830059483355,0.11562169276959855,0.08857566016044138,derived
+Limb darkening; $u_\mathrm{2; TESS_600s}$,-0.19978107254569502,0.09592838981357896,0.16514338001996948,derived
+Combined host density from all orbits; $rho_\mathrm{\star; combined}$ (cgs),2.276384012430497,0.28954181914338384,0.35028481881006934,derived

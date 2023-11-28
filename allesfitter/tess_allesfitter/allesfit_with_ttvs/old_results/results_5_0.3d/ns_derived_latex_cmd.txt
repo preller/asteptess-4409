@@ -1,5 +1,0 @@
-\newcommand{\bdepthtrundilTESS}{$10.545\pm0.073$} %Transit depth (undil.) b; $\delta_\mathrm{tr; undil; b; TESS}$ (ppt) = $10.545\pm0.073$
-\newcommand{\bdepthtrdilTESS}{$10.545\pm0.073$} %Transit depth (dil.) b; $\delta_\mathrm{tr; dil; b; TESS}$ (ppt) = $10.545\pm0.073$
-\newcommand{\hostldcuoneTESS}{$0.18_{-0.13}^{+0.19}$} %Limb darkening; $u_\mathrm{1; TESS}$ = $0.18_{-0.13}^{+0.19}$
-\newcommand{\hostldcutwoTESS}{$0.38_{-0.23}^{+0.15}$} %Limb darkening; $u_\mathrm{2; TESS}$ = $0.38_{-0.23}^{+0.15}$
-\newcommand{\combinedhostdensity}{$1.5\pm0.0$} %Combined host density from all orbits; $rho_\mathrm{\star; combined}$ (cgs) = $1.5\pm0.0$

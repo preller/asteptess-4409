@@ -1,8 +1,0 @@
-#property,value,lower_error,upper_error,source
-Transit depth (undil.) b; $\delta_\mathrm{tr; undil; b; TESS_1800s}$ (ppt),11.026904484353285,0.0,0.0,derived
-Transit depth (dil.) b; $\delta_\mathrm{tr; dil; b; TESS_1800s}$ (ppt),11.026904484353285,0.0,0.0,derived
-Transit depth (undil.) b; $\delta_\mathrm{tr; undil; b; TESS_600s}$ (ppt),11.056598788890648,0.0,0.0,derived
-Transit depth (dil.) b; $\delta_\mathrm{tr; dil; b; TESS_600s}$ (ppt),11.056598788890648,0.0,0.0,derived
-Transit depth (undil.) b; $\delta_\mathrm{tr; undil; b; TESS_180s}$ (ppt),8.464000000000027,0.0,0.0,derived
-Transit depth (dil.) b; $\delta_\mathrm{tr; dil; b; TESS_180s}$ (ppt),8.464000000000027,0.0,0.0,derived
-Combined host density from all orbits; $rho_\mathrm{\star; combined}$ (cgs),0.788458352855532,0.0,0.0,derived

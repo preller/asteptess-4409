@@ -1,6 +1,0 @@
-#property,value,lower_error,upper_error,source
-Transit depth (undil.) b; $\delta_\mathrm{tr; undil; b; Leonardo}$ (ppt),10.572053956518946,0.07457821348078042,0.0703483307588062,derived
-Transit depth (dil.) b; $\delta_\mathrm{tr; dil; b; Leonardo}$ (ppt),10.572053956518946,0.07457821348078042,0.0703483307588062,derived
-Limb darkening; $u_\mathrm{1; Leonardo}$,0.6690727244437584,0.2327698591292875,0.1893626860066958,derived
-Limb darkening; $u_\mathrm{2; Leonardo}$,-0.10229552510374869,0.22515763176485815,0.27260498704406133,derived
-Combined host density from all orbits; $rho_\mathrm{\star; combined}$ (cgs),1.4728232822692737,0.0,0.0,derived

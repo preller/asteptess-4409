@@ -1,0 +1,10 @@
+\newcommand{\bTtratot}{$10.882632\pm0.000019$} %Total transit duration b; $T_\mathrm{tot;b}$ (h) = $10.882632\pm0.000019$
+\newcommand{\bTtrafull}{$9.048818\pm0.000016$} %Full-transit duration b; $T_\mathrm{full;b}$ (h) = $9.048818\pm0.000016$
+\newcommand{\bhostdensity}{$0.7882947\pm0.0000028$} %Host density from orbit b; $\rho_\mathrm{\star;b}$ (cgs) = $0.7882947\pm0.0000028$
+\newcommand{\bdepthtrundilCHATI}{$11\pm0.0$} %Transit depth (undil.) b; $\delta_\mathrm{tr; undil; b; CHAT_I}$ (ppt) = $11\pm0.0$
+\newcommand{\bdepthtrdilCHATI}{$11\pm0.0$} %Transit depth (dil.) b; $\delta_\mathrm{tr; dil; b; CHAT_I}$ (ppt) = $11\pm0.0$
+\newcommand{\bdepthtrundilOMESR}{$11\pm0.0$} %Transit depth (undil.) b; $\delta_\mathrm{tr; undil; b; OMES_R}$ (ppt) = $11\pm0.0$
+\newcommand{\bdepthtrdilOMESR}{$11\pm0.0$} %Transit depth (dil.) b; $\delta_\mathrm{tr; dil; b; OMES_R}$ (ppt) = $11\pm0.0$
+\newcommand{\bdepthtrundilOMESI}{$11\pm0.0$} %Transit depth (undil.) b; $\delta_\mathrm{tr; undil; b; OMES_I}$ (ppt) = $11\pm0.0$
+\newcommand{\bdepthtrdilOMESI}{$11\pm0.0$} %Transit depth (dil.) b; $\delta_\mathrm{tr; dil; b; OMES_I}$ (ppt) = $11\pm0.0$
+\newcommand{\combinedhostdensity}{$0.7882947\pm0.0000028$} %Combined host density from all orbits; $rho_\mathrm{\star; combined}$ (cgs) = $0.7882947\pm0.0000028$

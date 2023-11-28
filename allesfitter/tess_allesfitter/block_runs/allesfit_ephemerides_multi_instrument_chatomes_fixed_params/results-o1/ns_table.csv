@@ -1,0 +1,19 @@
+#name,median,lower_error,upper_error,label,unit
+#Fitted parameters,,,
+b_rr,0.092,(fixed),(fixed),$R_b / R_\star$,
+b_rsuma,0.0154,(fixed),(fixed),$(R_\star + R_b) / a_b$,
+b_cosi,0.0,(fixed),(fixed),$\cos{i_b}$,
+b_epoch,2459353.8754090606,0.000558006577193737,0.0005549732595682144,$T_{0;b}$,BJD
+b_period,92.4984976282982,0.00016238437558513397,0.00015925550347617445,$P_b$,days
+host_ldc_q1_CHAT_I,0.5,(fixed),(fixed),$q_{1; \mathrm{CHAT_I}}$,
+host_ldc_q2_CHAT_I,0.5,(fixed),(fixed),$q_{2; \mathrm{CHAT_I}}$,
+host_ldc_q1_OMES_R,0.5,(fixed),(fixed),$q_{1; \mathrm{OMES_R}}$,
+host_ldc_q2_OMES_R,0.5,(fixed),(fixed),$q_{2; \mathrm{OMES_R}}$,
+host_ldc_q1_OMES_I,0.5,(fixed),(fixed),$q_{1; \mathrm{OMES_I}}$,
+host_ldc_q2_OMES_I,0.5,(fixed),(fixed),$q_{2; \mathrm{OMES_I}}$,
+ln_err_flux_CHAT_I,-7.0,(fixed),(fixed),$\log{\sigma_\mathrm{CHAT_I}}$,$\log{ \mathrm{rel. flux.} }$
+ln_err_flux_OMES_R,-7.0,(fixed),(fixed),$\log{\sigma_\mathrm{OMES_R}}$,$\log{ \mathrm{rel. flux.} }$
+ln_err_flux_OMES_I,-7.0,(fixed),(fixed),$\log{\sigma_\mathrm{OMES_I}}$,$\log{ \mathrm{rel. flux.} }$
+baseline_offset_flux_CHAT_I,0.0,(fixed),(fixed),$\mathrm{gp: \log{\sigma} (CHAT_I)}$,
+baseline_offset_flux_OMES_R,0.0,(fixed),(fixed),$\mathrm{gp: \log{\sigma} (OMES_R)}$,
+baseline_offset_flux_OMES_I,0.0,(fixed),(fixed),$\mathrm{gp: \log{\sigma} (OMES_I)}$,
