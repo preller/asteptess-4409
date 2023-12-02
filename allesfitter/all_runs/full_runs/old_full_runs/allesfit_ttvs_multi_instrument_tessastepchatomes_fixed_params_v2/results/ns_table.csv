@@ -1,0 +1,58 @@
+#name,median,lower_error,upper_error,label,unit
+#Fitted parameters,,,
+b_rr,0.009999367687171372,8.724341699472421e-07,4.5993778411898556e-07,$R_b / R_\star$,
+b_rsuma,0.010114237988488452,5.2440406554644936e-05,4.0908144147238507e-05,$(R_\star + R_b) / a_b$,
+b_cosi,0.00011923673993950213,8.199954207820128e-05,0.00011743997723952977,$\cos{i_b}$,
+b_epoch,2459261.3336131093,(fixed),(fixed),$T_{0;b}$,BJD
+b_period,92.492276010932,(fixed),(fixed),$P_b$,days
+host_ldc_q1_TESS_1800s,0.5,(fixed),(fixed),$q_{1; \mathrm{TESS_1800s}}$,
+host_ldc_q2_TESS_1800s,0.5,(fixed),(fixed),$q_{2; \mathrm{TESS_1800s}}$,
+host_ldc_q1_TESS_600s,0.5,(fixed),(fixed),$q_{1; \mathrm{TESS_600s}}$,
+host_ldc_q2_TESS_600s,0.5,(fixed),(fixed),$q_{2; \mathrm{TESS_600s}}$,
+host_ldc_q1_TESS_180s,0.5,(fixed),(fixed),$q_{1; \mathrm{TESS_180s}}$,
+host_ldc_q2_TESS_180s,0.0,(fixed),(fixed),$q_{2; \mathrm{TESS_180s}}$,
+host_ldc_q1_ASTEP_R,0.5,(fixed),(fixed),$q_{1; \mathrm{ASTEP_R}}$,
+host_ldc_q2_ASTEP_R,0.5,(fixed),(fixed),$q_{2; \mathrm{ASTEP_R}}$,
+host_ldc_q1_ASTEP_B,0.5,(fixed),(fixed),$q_{1; \mathrm{ASTEP_B}}$,
+host_ldc_q2_ASTEP_B,0.5,(fixed),(fixed),$q_{2; \mathrm{ASTEP_B}}$,
+host_ldc_q1_ASTEP_Rc,0.5,(fixed),(fixed),$q_{1; \mathrm{ASTEP_Rc}}$,
+host_ldc_q2_ASTEP_Rc,0.5,(fixed),(fixed),$q_{2; \mathrm{ASTEP_Rc}}$,
+host_ldc_q1_CHAT_I,0.5,(fixed),(fixed),$q_{1; \mathrm{CHAT_I}}$,
+host_ldc_q2_CHAT_I,0.5,(fixed),(fixed),$q_{2; \mathrm{CHAT_I}}$,
+host_ldc_q1_OMES_R,0.5,(fixed),(fixed),$q_{1; \mathrm{OMES_R}}$,
+host_ldc_q2_OMES_R,0.5,(fixed),(fixed),$q_{2; \mathrm{OMES_R}}$,
+host_ldc_q1_OMES_I,0.5,(fixed),(fixed),$q_{1; \mathrm{OMES_I}}$,
+host_ldc_q2_OMES_I,0.5,(fixed),(fixed),$q_{2; \mathrm{OMES_I}}$,
+ln_err_flux_TESS_1800s,-7.0,(fixed),(fixed),$\log{\sigma_\mathrm{TESS_1800s}}$,$\log{ \mathrm{rel. flux.} }$
+ln_err_flux_TESS_600s,-7.0,(fixed),(fixed),$\log{\sigma_\mathrm{TESS_600s}}$,$\log{ \mathrm{rel. flux.} }$
+ln_err_flux_TESS_180s,-7.0,(fixed),(fixed),$\log{\sigma_\mathrm{TESS_180s}}$,$\log{ \mathrm{rel. flux.} }$
+ln_err_flux_ASTEP_R,-5.1537210906369015,0.02535720619805737,0.02590925992075377,$\log{\sigma_\mathrm{ASTEP_R}}$,$\log{ \mathrm{rel. flux.} }$
+ln_err_flux_ASTEP_B,-5.529321696440485,0.029703167397749475,0.031225387909207036,$\log{\sigma_\mathrm{ASTEP_B}}$,$\log{ \mathrm{rel. flux.} }$
+ln_err_flux_ASTEP_Rc,-5.638705372737149,0.05272808283634589,0.0557622895276344,$\log{\sigma_\mathrm{ASTEP_Rc}}$,$\log{ \mathrm{rel. flux.} }$
+ln_err_flux_CHAT_I,-6.280885665908196,0.06072712383261347,0.06638906571533987,$\log{\sigma_\mathrm{CHAT_I}}$,$\log{ \mathrm{rel. flux.} }$
+ln_err_flux_OMES_R,-5.002806320580532,0.004033428729859345,0.0020910415069126387,$\log{\sigma_\mathrm{OMES_R}}$,$\log{ \mathrm{rel. flux.} }$
+ln_err_flux_OMES_I,-5.639949289429589,0.047784980536620836,0.049639239688915815,$\log{\sigma_\mathrm{OMES_I}}$,$\log{ \mathrm{rel. flux.} }$
+baseline_offset_flux_TESS_1800s,0.0,(fixed),(fixed),$\mathrm{gp: \log{\sigma} (TESS_1800s)}$,
+baseline_offset_flux_TESS_600s,0.0,(fixed),(fixed),$\mathrm{gp: \log{\sigma} (TESS_600s)}$,
+baseline_offset_flux_TESS_180s,0.0,(fixed),(fixed),$\mathrm{gp: \log{\sigma} (TESS_180s)}$,
+baseline_offset_flux_ASTEP_R,-0.00016427499164609885,0.001875932326952393,0.002017956434670514,$\mathrm{gp: \log{\sigma} (ASTEP_R)}$,
+baseline_offset_flux_ASTEP_B,-6.911984337388448e-05,0.001959831193068854,0.0020146979891855813,$\mathrm{gp: \log{\sigma} (ASTEP_B)}$,
+baseline_offset_flux_ASTEP_Rc,-9.415809731514553e-05,0.0018590690040160697,0.0018920423559677288,$\mathrm{gp: \log{\sigma} (ASTEP_Rc)}$,
+baseline_offset_flux_CHAT_I,0.0005387069231691018,0.0021317241159173,0.0016772413364869597,$\mathrm{gp: \log{\sigma} (CHAT_I)}$,
+baseline_offset_flux_OMES_R,-0.00016294089740476365,0.00188755476113833,0.0020195853247843695,$\mathrm{gp: \log{\sigma} (OMES_R)}$,
+baseline_offset_flux_OMES_I,0.0002015749088377151,0.0019816037983449064,0.0018940017166973926,$\mathrm{gp: \log{\sigma} (OMES_I)}$,
+b_ttv_transit_1,-0.002217823206601535,0.019576780105256684,0.021095052047974037,TTV$_\mathrm{b;1}$,d
+b_ttv_transit_2,0.01020595274238928,0.021915574084013296,0.01994553726418323,TTV$_\mathrm{b;2}$,d
+b_ttv_transit_3,0.006644519606100782,0.020122817940385375,0.019680324508967895,TTV$_\mathrm{b;3}$,d
+b_ttv_transit_4,-0.003807871336724021,0.02559614460121871,0.025144993273997142,TTV$_\mathrm{b;4}$,d
+b_ttv_transit_5,0.007415668509499443,0.04104943522346351,0.03185704701943926,TTV$_\mathrm{b;5}$,d
+b_ttv_transit_6,0.005022448786911417,0.006176042964379146,0.004082334607051381,TTV$_\mathrm{b;6}$,d
+b_ttv_transit_7,0.0007503906652163855,0.001076131114786976,0.0009558753617424256,TTV$_\mathrm{b;7}$,d
+b_ttv_transit_8,-0.0010435435150084188,0.0008103159416886496,0.0008222775289196613,TTV$_\mathrm{b;8}$,d
+b_ttv_transit_9,0.0013052358363445787,0.030564554884148422,0.02944471222233018,TTV$_\mathrm{b;9}$,d
+b_ttv_transit_10,0.001639855281137137,0.022488143689850193,0.023675561624951852,TTV$_\mathrm{b;10}$,d
+b_ttv_transit_11,-0.004830440705256886,0.030294902441617227,0.0323056457538002,TTV$_\mathrm{b;11}$,d
+b_ttv_transit_12,0.006672043878203346,0.03900644975338331,0.027592975170600567,TTV$_\mathrm{b;12}$,d
+b_ttv_transit_13,-0.009321386529879246,0.010060019750436338,0.007380483230087359,TTV$_\mathrm{b;13}$,d
+b_ttv_transit_14,-0.003214446158074799,0.03151378997512304,0.03461521687760223,TTV$_\mathrm{b;14}$,d
+b_ttv_transit_15,-0.004326675435184092,0.03110739490852891,0.033991492319783025,TTV$_\mathrm{b;15}$,d

@@ -1,0 +1,32 @@
+#property,value,lower_error,upper_error,source
+Transit depth (undil.) b; $\delta_\mathrm{tr; undil; b; TESS_1800s}$ (ppt),10.876486001741403,0.0,0.0,derived
+Transit depth (dil.) b; $\delta_\mathrm{tr; dil; b; TESS_1800s}$ (ppt),10.876486001741403,0.0,0.0,derived
+Transit depth (undil.) b; $\delta_\mathrm{tr; undil; b; TESS_600s}$ (ppt),10.829344255266715,0.0,0.0,derived
+Transit depth (dil.) b; $\delta_\mathrm{tr; dil; b; TESS_600s}$ (ppt),10.829344255266715,0.0,0.0,derived
+Transit depth (undil.) b; $\delta_\mathrm{tr; undil; b; TESS_180s}$ (ppt),9.44672608347541,0.0,0.0,derived
+Transit depth (dil.) b; $\delta_\mathrm{tr; dil; b; TESS_180s}$ (ppt),9.44672608347541,0.0,0.0,derived
+Transit depth (undil.) b; $\delta_\mathrm{tr; undil; b; ASTEP_R}$ (ppt),11.254601315999867,0.3528795055062197,0.3505017563644195,derived
+Transit depth (dil.) b; $\delta_\mathrm{tr; dil; b; ASTEP_R}$ (ppt),11.254601315999867,0.3528795055062197,0.3505017563644195,derived
+Transit depth (undil.) b; $\delta_\mathrm{tr; undil; b; ASTEP_B}$ (ppt),9.617026285985153,0.3959107448539001,0.4145614157405877,derived
+Transit depth (dil.) b; $\delta_\mathrm{tr; dil; b; ASTEP_B}$ (ppt),9.617026285985153,0.3959107448539001,0.4145614157405877,derived
+Transit depth (undil.) b; $\delta_\mathrm{tr; undil; b; ASTEP_Rc}$ (ppt),10.517593986488883,0.590791981881722,0.7231828512740393,derived
+Transit depth (dil.) b; $\delta_\mathrm{tr; dil; b; ASTEP_Rc}$ (ppt),10.517593986488883,0.590791981881722,0.7231828512740393,derived
+Transit depth (undil.) b; $\delta_\mathrm{tr; undil; b; CHAT_I}$ (ppt),16.408931132050107,0.6215604881697452,0.37354617539398305,derived
+Transit depth (dil.) b; $\delta_\mathrm{tr; dil; b; CHAT_I}$ (ppt),16.408931132050107,0.6215604881697452,0.37354617539398305,derived
+Transit depth (undil.) b; $\delta_\mathrm{tr; undil; b; OMES_R}$ (ppt),8.995619126682453,0.1586442203670444,0.21834120740016338,derived
+Transit depth (dil.) b; $\delta_\mathrm{tr; dil; b; OMES_R}$ (ppt),8.995619126682453,0.1586442203670444,0.21834120740016338,derived
+Transit depth (undil.) b; $\delta_\mathrm{tr; undil; b; OMES_I}$ (ppt),16.19316074591054,0.6821306694117517,0.4954834660403904,derived
+Transit depth (dil.) b; $\delta_\mathrm{tr; dil; b; OMES_I}$ (ppt),16.19316074591054,0.6821306694117517,0.4954834660403904,derived
+Limb darkening; $u_\mathrm{1; ASTEP_R}$,0.8059219319199962,0.18609848609665902,0.1418617162542366,derived
+Limb darkening; $u_\mathrm{2; ASTEP_R}$,-0.2005090960206824,0.18647426411385176,0.2633191159246124,derived
+Limb darkening; $u_\mathrm{1; ASTEP_B}$,0.1783550873194034,0.12374394923926103,0.1804464779011626,derived
+Limb darkening; $u_\mathrm{2; ASTEP_B}$,0.15967565769795272,0.2165943449223808,0.2864067458574721,derived
+Limb darkening; $u_\mathrm{1; ASTEP_Rc}$,0.5235743866370283,0.2649403732115878,0.2699521196409833,derived
+Limb darkening; $u_\mathrm{2; ASTEP_Rc}$,-0.03492265673643364,0.23253419861692537,0.39353656286970456,derived
+Limb darkening; $u_\mathrm{1; CHAT_I}$,1.9018001700893463,0.10359977694398159,0.056244952831294937,derived
+Limb darkening; $u_\mathrm{2; CHAT_I}$,-0.9250999241340749,0.043973627241248536,0.09527084451645451,derived
+Limb darkening; $u_\mathrm{1; OMES_R}$,0.05882924875170789,0.04094897866581177,0.06928734383845578,derived
+Limb darkening; $u_\mathrm{2; OMES_R}$,0.04572546051876156,0.05794698423786656,0.1399488219456803,derived
+Limb darkening; $u_\mathrm{1; OMES_I}$,1.8583113228389143,0.13540176990629615,0.08060517999286287,derived
+Limb darkening; $u_\mathrm{2; OMES_I}$,-0.8768481456368368,0.07679676261086854,0.1364162629077318,derived
+Combined host density from all orbits; $rho_\mathrm{\star; combined}$ (cgs),2.9381029612344935,0.0,0.0,derived

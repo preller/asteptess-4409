@@ -1,0 +1,35 @@
+Parameter & Value & Source \\ 
+\hline 
+\multicolumn{3}{c}{\textit{Derived parameters}} \\ 
+\hline 
+Transit depth (undil.) b; $\delta_\mathrm{tr; undil; b; TESS_1800s}$ (ppt) & $11\pm0.0$ & derived \\ 
+Transit depth (dil.) b; $\delta_\mathrm{tr; dil; b; TESS_1800s}$ (ppt) & $11\pm0.0$ & derived \\ 
+Transit depth (undil.) b; $\delta_\mathrm{tr; undil; b; TESS_600s}$ (ppt) & $11\pm0.0$ & derived \\ 
+Transit depth (dil.) b; $\delta_\mathrm{tr; dil; b; TESS_600s}$ (ppt) & $11\pm0.0$ & derived \\ 
+Transit depth (undil.) b; $\delta_\mathrm{tr; undil; b; TESS_180s}$ (ppt) & $9.4\pm0.0$ & derived \\ 
+Transit depth (dil.) b; $\delta_\mathrm{tr; dil; b; TESS_180s}$ (ppt) & $9.4\pm0.0$ & derived \\ 
+Transit depth (undil.) b; $\delta_\mathrm{tr; undil; b; ASTEP_R}$ (ppt) & $11.25\pm0.35$ & derived \\ 
+Transit depth (dil.) b; $\delta_\mathrm{tr; dil; b; ASTEP_R}$ (ppt) & $11.25\pm0.35$ & derived \\ 
+Transit depth (undil.) b; $\delta_\mathrm{tr; undil; b; ASTEP_B}$ (ppt) & $9.62\pm0.41$ & derived \\ 
+Transit depth (dil.) b; $\delta_\mathrm{tr; dil; b; ASTEP_B}$ (ppt) & $9.62\pm0.41$ & derived \\ 
+Transit depth (undil.) b; $\delta_\mathrm{tr; undil; b; ASTEP_Rc}$ (ppt) & $10.52_{-0.59}^{+0.72}$ & derived \\ 
+Transit depth (dil.) b; $\delta_\mathrm{tr; dil; b; ASTEP_Rc}$ (ppt) & $10.52_{-0.59}^{+0.72}$ & derived \\ 
+Transit depth (undil.) b; $\delta_\mathrm{tr; undil; b; CHAT_I}$ (ppt) & $16.41_{-0.62}^{+0.37}$ & derived \\ 
+Transit depth (dil.) b; $\delta_\mathrm{tr; dil; b; CHAT_I}$ (ppt) & $16.41_{-0.62}^{+0.37}$ & derived \\ 
+Transit depth (undil.) b; $\delta_\mathrm{tr; undil; b; OMES_R}$ (ppt) & $9.00_{-0.16}^{+0.22}$ & derived \\ 
+Transit depth (dil.) b; $\delta_\mathrm{tr; dil; b; OMES_R}$ (ppt) & $9.00_{-0.16}^{+0.22}$ & derived \\ 
+Transit depth (undil.) b; $\delta_\mathrm{tr; undil; b; OMES_I}$ (ppt) & $16.19_{-0.68}^{+0.50}$ & derived \\ 
+Transit depth (dil.) b; $\delta_\mathrm{tr; dil; b; OMES_I}$ (ppt) & $16.19_{-0.68}^{+0.50}$ & derived \\ 
+Limb darkening; $u_\mathrm{1; ASTEP_R}$ & $0.81_{-0.19}^{+0.14}$ & derived \\ 
+Limb darkening; $u_\mathrm{2; ASTEP_R}$ & $-0.20_{-0.19}^{+0.26}$ & derived \\ 
+Limb darkening; $u_\mathrm{1; ASTEP_B}$ & $0.18_{-0.12}^{+0.18}$ & derived \\ 
+Limb darkening; $u_\mathrm{2; ASTEP_B}$ & $0.16_{-0.22}^{+0.29}$ & derived \\ 
+Limb darkening; $u_\mathrm{1; ASTEP_Rc}$ & $0.52\pm0.27$ & derived \\ 
+Limb darkening; $u_\mathrm{2; ASTEP_Rc}$ & $-0.03_{-0.23}^{+0.39}$ & derived \\ 
+Limb darkening; $u_\mathrm{1; CHAT_I}$ & $1.902_{-0.10}^{+0.056}$ & derived \\ 
+Limb darkening; $u_\mathrm{2; CHAT_I}$ & $-0.925_{-0.044}^{+0.095}$ & derived \\ 
+Limb darkening; $u_\mathrm{1; OMES_R}$ & $0.059_{-0.041}^{+0.069}$ & derived \\ 
+Limb darkening; $u_\mathrm{2; OMES_R}$ & $0.046_{-0.058}^{+0.14}$ & derived \\ 
+Limb darkening; $u_\mathrm{1; OMES_I}$ & $1.858_{-0.14}^{+0.081}$ & derived \\ 
+Limb darkening; $u_\mathrm{2; OMES_I}$ & $-0.877_{-0.077}^{+0.14}$ & derived \\ 
+Combined host density from all orbits; $rho_\mathrm{\star; combined}$ (cgs) & $2.9\pm0.0$ & derived \\ 

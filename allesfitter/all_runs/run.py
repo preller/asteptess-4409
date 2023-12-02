@@ -67,6 +67,14 @@ dirname = "allesfit_ttvs_multi_instrument_tess_fixed_params"
 dirname = "allesfit_ttvs_multi_instrument_astepchatomes_fixed_params"
 dirname = "allesfit_ttvs_multi_instrument_tessastepchatomes_fixed_params"
 dirname = "allesfit_ephemerides_multi_instrument_tessastepchatomes_fixed_params"
+dirname = "./full_runs/allesfit_ttvs_multi_instrument_tessastepchatomes_fixed_params_v2"
+dirname = "./full_runs/allesfit_ttvs_multi_instrument_tessastepchatomes_fixed_params_v3"
+dirname = "./full_runs/allesfit_ephemerides_multi_instrument_tess-only_open_params"
+dirname = "./full_runs/allesfit_limb_multi_instrument_tess-only_open_params"
+dirname = "./full_runs/allesfit_ephemerides_multi_instrument_allexcepttess"
+dirname = "./full_runs/allesfit_ephemerides_multi_instrument_alltessfixed_3"
+dirname = "./full_runs/allesfit_ttvs_multi_instrument_tessastepchatomes_fixed_all_params_v5"
+dirname = "./full_runs/allesfit_ttvs_multi_instrument_tess-only_fixed_all_params_6"
 
 allesfitter.show_initial_guess(dirname)
 allesfitter.ns_fit(dirname)

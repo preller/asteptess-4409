@@ -1,0 +1,22 @@
+#name,value,fit,bounds,label,unit,truth
+#companion b astrophysical params,,,,,,
+b_rr,0.09328632398530333,0,uniform 0.02 0.0.16,$R_b / R_\star$,,0.09328632398530333
+b_rsuma,0.009944756157219625,0,uniform 0.002 0.05,$(R_\star + R_b) / a_b$,,0.009944756157219625
+b_cosi,0.0013492719384718581,0,uniform 0.0 0.1,$\cos{i_b}$,,0.0013492719384718581
+b_epoch,2459261.331757554,0,uniform 2459260.0 2459262.0,$T_{0;b}$,BJD,2459261.331757554
+b_period,92.49159669417968,0,uniform 91.0 94.0,$P_b$,days,92.49159669417968
+#limb darkening coefficients per instrument,,,,,,
+host_ldc_q1_TESS_1800s,0.5,1,uniform 0.0 1.0,$q_{1; \mathrm{TESS_1800s}}$,,0.64
+host_ldc_q2_TESS_1800s,0.5,1,uniform 0.0 1.0,$q_{2; \mathrm{TESS_1800s}}$,,0.38
+host_ldc_q1_TESS_600s,0.5,1,uniform 0.0 1.0,$q_{1; \mathrm{TESS_600s}}$,,0.64
+host_ldc_q2_TESS_600s,0.5,1,uniform 0.0 1.0,$q_{2; \mathrm{TESS_600s}}$,,0.38
+host_ldc_q1_TESS_180s,0.5,1,uniform 0.0 1.0,$q_{1; \mathrm{TESS_180s}}$,,0.64
+host_ldc_q2_TESS_180s,0.0,1,uniform 0.0 1.0,$q_{2; \mathrm{TESS_180s}}$,,0.38
+#errors per instrument,,,,,,
+ln_err_flux_TESS_1800s,-6.816554746290601,1,uniform -8 -5,$\log{\sigma_\mathrm{TESS_1800s}}$,$\log{ \mathrm{rel. flux.} }$,
+ln_err_flux_TESS_600s,-5.15810594979061,1,uniform -8 -5,$\log{\sigma_\mathrm{TESS_600s}}$,$\log{ \mathrm{rel. flux.} }$,
+ln_err_flux_TESS_180s,-5.695132718800515,1,uniform -8 -5,$\log{\sigma_\mathrm{TESS_180s}}$,$\log{ \mathrm{rel. flux.} }$,
+#baseline per instrument,,,,,,
+baseline_offset_flux_TESS_1800s,1.9076495754509742e-05,0,uniform -0.003 0.003,$\mathrm{gp: \log{\sigma} (TESS_1800s)}$,,
+baseline_offset_flux_TESS_600s,-2.1591541868014492e-05,0,uniform -0.003 0.003,$\mathrm{gp: \log{\sigma} (TESS_600s)}$,,
+baseline_offset_flux_TESS_180s,-9.290913971707533e-05,0,uniform -0.003 0.003,$\mathrm{gp: \log{\sigma} (TESS_180s)}$,,

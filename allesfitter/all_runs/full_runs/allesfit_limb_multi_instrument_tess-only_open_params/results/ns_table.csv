@@ -1,0 +1,19 @@
+#name,median,lower_error,upper_error,label,unit
+#Fitted parameters,,,
+b_rr,0.09328632398530333,(fixed),(fixed),$R_b / R_\star$,
+b_rsuma,0.009944756157219625,(fixed),(fixed),$(R_\star + R_b) / a_b$,
+b_cosi,0.0013492719384718581,(fixed),(fixed),$\cos{i_b}$,
+b_epoch,2459261.331757554,(fixed),(fixed),$T_{0;b}$,BJD
+b_period,92.49159669417968,(fixed),(fixed),$P_b$,days
+host_ldc_q1_TESS_1800s,0.6665910399495663,0.19766960920477183,0.2009858992280663,$q_{1; \mathrm{TESS_1800s}}$,
+host_ldc_q2_TESS_1800s,0.2703765314911838,0.12135732747427361,0.1832056174507704,$q_{2; \mathrm{TESS_1800s}}$,
+host_ldc_q1_TESS_600s,0.6763154326269042,0.11543313289723744,0.12442476678131376,$q_{1; \mathrm{TESS_600s}}$,
+host_ldc_q2_TESS_600s,0.23222760346172433,0.07895021185062873,0.09453912133510112,$q_{2; \mathrm{TESS_600s}}$,
+host_ldc_q1_TESS_180s,0.5901911593896705,0.23741919307848536,0.23019049856415352,$q_{1; \mathrm{TESS_180s}}$,
+host_ldc_q2_TESS_180s,0.14100101189218986,0.1018001408146321,0.20038036224422215,$q_{2; \mathrm{TESS_180s}}$,
+ln_err_flux_TESS_1800s,-6.818720592807077,0.05146775774750534,0.05325272919185764,$\log{\sigma_\mathrm{TESS_1800s}}$,$\log{ \mathrm{rel. flux.} }$
+ln_err_flux_TESS_600s,-5.1586228444383835,0.006775368579523544,0.006748610164175162,$\log{\sigma_\mathrm{TESS_600s}}$,$\log{ \mathrm{rel. flux.} }$
+ln_err_flux_TESS_180s,-5.695841180628701,0.025921290451063506,0.025983881710637924,$\log{\sigma_\mathrm{TESS_180s}}$,$\log{ \mathrm{rel. flux.} }$
+baseline_offset_flux_TESS_1800s,1.9076495754509742e-05,(fixed),(fixed),$\mathrm{gp: \log{\sigma} (TESS_1800s)}$,
+baseline_offset_flux_TESS_600s,-2.1591541868014492e-05,(fixed),(fixed),$\mathrm{gp: \log{\sigma} (TESS_600s)}$,
+baseline_offset_flux_TESS_180s,-9.290913971707533e-05,(fixed),(fixed),$\mathrm{gp: \log{\sigma} (TESS_180s)}$,

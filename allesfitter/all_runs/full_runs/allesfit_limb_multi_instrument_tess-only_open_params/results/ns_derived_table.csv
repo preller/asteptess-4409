@@ -1,0 +1,14 @@
+#property,value,lower_error,upper_error,source
+Transit depth (undil.) b; $\delta_\mathrm{tr; undil; b; TESS_1800s}$ (ppt),10.880633474053658,0.27382215273052957,0.2651773582591499,derived
+Transit depth (dil.) b; $\delta_\mathrm{tr; dil; b; TESS_1800s}$ (ppt),10.880633474053658,0.27382215273052957,0.2651773582591499,derived
+Transit depth (undil.) b; $\delta_\mathrm{tr; undil; b; TESS_600s}$ (ppt),10.821695265906929,0.13407421097333483,0.13484346032543826,derived
+Transit depth (dil.) b; $\delta_\mathrm{tr; dil; b; TESS_600s}$ (ppt),10.821695265906929,0.13407421097333483,0.13484346032543826,derived
+Transit depth (undil.) b; $\delta_\mathrm{tr; undil; b; TESS_180s}$ (ppt),10.389015389655087,0.28097049840791755,0.3109275952817292,derived
+Transit depth (dil.) b; $\delta_\mathrm{tr; dil; b; TESS_180s}$ (ppt),10.389015389655087,0.28097049840791755,0.3109275952817292,derived
+Limb darkening; $u_\mathrm{1; TESS_1800s}$,0.44488695951323265,0.17573526346488094,0.1921701404313143,derived
+Limb darkening; $u_\mathrm{2; TESS_1800s}$,0.3762068057928705,0.3124931634209378,0.26904968316013306,derived
+Limb darkening; $u_\mathrm{1; TESS_600s}$,0.381991884685594,0.11153316894582815,0.1115647071040558,derived
+Limb darkening; $u_\mathrm{2; TESS_600s}$,0.4406511624611094,0.18206488865625486,0.1775127164265869,derived
+Limb darkening; $u_\mathrm{1; TESS_180s}$,0.21727346955741278,0.1521276146702204,0.22497002658841042,derived
+Limb darkening; $u_\mathrm{2; TESS_180s}$,0.5484878692652314,0.3555456543144222,0.24408959269026997,derived
+Combined host density from all orbits; $rho_\mathrm{\star; combined}$ (cgs),2.9381029612344935,0.0,0.0,derived

@@ -1,0 +1,13 @@
+\newcommand{\bdepthtrundilTESSone800s}{$10.88\pm0.27$} %Transit depth (undil.) b; $\delta_\mathrm{tr; undil; b; TESS_1800s}$ (ppt) = $10.88\pm0.27$
+\newcommand{\bdepthtrdilTESSone800s}{$10.88\pm0.27$} %Transit depth (dil.) b; $\delta_\mathrm{tr; dil; b; TESS_1800s}$ (ppt) = $10.88\pm0.27$
+\newcommand{\bdepthtrundilTESS600s}{$10.82\pm0.13$} %Transit depth (undil.) b; $\delta_\mathrm{tr; undil; b; TESS_600s}$ (ppt) = $10.82\pm0.13$
+\newcommand{\bdepthtrdilTESS600s}{$10.82\pm0.13$} %Transit depth (dil.) b; $\delta_\mathrm{tr; dil; b; TESS_600s}$ (ppt) = $10.82\pm0.13$
+\newcommand{\bdepthtrundilTESSone80s}{$10.39_{-0.28}^{+0.31}$} %Transit depth (undil.) b; $\delta_\mathrm{tr; undil; b; TESS_180s}$ (ppt) = $10.39_{-0.28}^{+0.31}$
+\newcommand{\bdepthtrdilTESSone80s}{$10.39_{-0.28}^{+0.31}$} %Transit depth (dil.) b; $\delta_\mathrm{tr; dil; b; TESS_180s}$ (ppt) = $10.39_{-0.28}^{+0.31}$
+\newcommand{\hostldcuoneTESSone800s}{$0.44_{-0.18}^{+0.19}$} %Limb darkening; $u_\mathrm{1; TESS_1800s}$ = $0.44_{-0.18}^{+0.19}$
+\newcommand{\hostldcutwoTESSone800s}{$0.38_{-0.31}^{+0.27}$} %Limb darkening; $u_\mathrm{2; TESS_1800s}$ = $0.38_{-0.31}^{+0.27}$
+\newcommand{\hostldcuoneTESS600s}{$0.38\pm0.11$} %Limb darkening; $u_\mathrm{1; TESS_600s}$ = $0.38\pm0.11$
+\newcommand{\hostldcutwoTESS600s}{$0.44\pm0.18$} %Limb darkening; $u_\mathrm{2; TESS_600s}$ = $0.44\pm0.18$
+\newcommand{\hostldcuoneTESSone80s}{$0.22_{-0.15}^{+0.22}$} %Limb darkening; $u_\mathrm{1; TESS_180s}$ = $0.22_{-0.15}^{+0.22}$
+\newcommand{\hostldcutwoTESSone80s}{$0.55_{-0.36}^{+0.24}$} %Limb darkening; $u_\mathrm{2; TESS_180s}$ = $0.55_{-0.36}^{+0.24}$
+\newcommand{\combinedhostdensity}{$2.9\pm0.0$} %Combined host density from all orbits; $rho_\mathrm{\star; combined}$ (cgs) = $2.9\pm0.0$

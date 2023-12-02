@@ -1,0 +1,60 @@
+parameter & value & unit & fit/fixed \\ 
+\hline 
+\multicolumn{4}{c}{\textit{Fitted parameters}} \\ 
+\hline 
+$R_b / R_\star$ & $0.09392_{-0.00047}^{+0.00057}$ & & fit \\ 
+$(R_\star + R_b) / a_b$ & $0.009886_{-0.000085}^{+0.00022}$ & & fit \\ 
+$\cos{i_b}$ & $0.00113_{-0.00077}^{+0.0011}$ & & fit \\ 
+$T_{0;b}$ & $2459261.331757554$ & BJD& fixed \\ 
+$P_b$ & $92.49159669417968$ & days& fixed \\ 
+$q_{1; \mathrm{TESS_1800s}}$ & $0.6665910399495663$ & & fixed \\ 
+$q_{2; \mathrm{TESS_1800s}}$ & $0.2703765314911838$ & & fixed \\ 
+$q_{1; \mathrm{TESS_600s}}$ & $0.6763154326269042$ & & fixed \\ 
+$q_{2; \mathrm{TESS_600s}}$ & $0.23222760346172433$ & & fixed \\ 
+$q_{1; \mathrm{TESS_180s}}$ & $0.14100101189218986$ & & fixed \\ 
+$q_{2; \mathrm{TESS_180s}}$ & $0.14100101189218986$ & & fixed \\ 
+$q_{1; \mathrm{ASTEP_R}}$ & $0.37619995235802356$ & & fixed \\ 
+$q_{2; \mathrm{ASTEP_R}}$ & $0.6647599540701162$ & & fixed \\ 
+$q_{1; \mathrm{ASTEP_B}}$ & $0.14042312068938798$ & & fixed \\ 
+$q_{2; \mathrm{ASTEP_B}}$ & $0.26183022595966265$ & & fixed \\ 
+$q_{1; \mathrm{ASTEP_Rc}}$ & $0.3089651150288074$ & & fixed \\ 
+$q_{2; \mathrm{ASTEP_Rc}}$ & $0.5370348201281953$ & & fixed \\ 
+$q_{1; \mathrm{CHAT_I}}$ & $0.9683809266666001$ & & fixed \\ 
+$q_{2; \mathrm{CHAT_I}}$ & $0.9735286984463888$ & & fixed \\ 
+$q_{1; \mathrm{OMES_R}}$ & $0.016133063989104447$ & & fixed \\ 
+$q_{2; \mathrm{OMES_R}}$ & $0.2833459627695687$ & & fixed \\ 
+$q_{1; \mathrm{OMES_I}}$ & $0.9742176158617046$ & & fixed \\ 
+$q_{2; \mathrm{OMES_I}}$ & $0.9459495568650491$ & & fixed \\ 
+$\log{\sigma_\mathrm{TESS_1800s}}$ & $-6.818720592807077$ & $\log{ \mathrm{rel. flux.} }$& fixed \\ 
+$\log{\sigma_\mathrm{TESS_600s}}$ & $-5.1586228444383835$ & $\log{ \mathrm{rel. flux.} }$& fixed \\ 
+$\log{\sigma_\mathrm{TESS_180s}}$ & $-5.695841180628701$ & $\log{ \mathrm{rel. flux.} }$& fixed \\ 
+$\log{\sigma_\mathrm{ASTEP_R}}$ & $-5.531401420287221$ & $\log{ \mathrm{rel. flux.} }$& fixed \\ 
+$\log{\sigma_\mathrm{ASTEP_B}}$ & $-5.540272547279426$ & $\log{ \mathrm{rel. flux.} }$& fixed \\ 
+$\log{\sigma_\mathrm{ASTEP_Rc}}$ & $-5.714429760956918$ & $\log{ \mathrm{rel. flux.} }$& fixed \\ 
+$\log{\sigma_\mathrm{CHAT_I}}$ & $-6.143277097673829$ & $\log{ \mathrm{rel. flux.} }$& fixed \\ 
+$\log{\sigma_\mathrm{OMES_R}}$ & $-5.008611166223599$ & $\log{ \mathrm{rel. flux.} }$& fixed \\ 
+$\log{\sigma_\mathrm{OMES_I}}$ & $-5.711917497718392$ & $\log{ \mathrm{rel. flux.} }$& fixed \\ 
+$\mathrm{gp: \log{\sigma} (TESS_1800s)}$ & $1.9076495754509742e-05$ & & fixed \\ 
+$\mathrm{gp: \log{\sigma} (TESS_600s)}$ & $-2.1591541868014492e-05$ & & fixed \\ 
+$\mathrm{gp: \log{\sigma} (TESS_180s)}$ & $-9.290913971707533e-05$ & & fixed \\ 
+$\mathrm{gp: \log{\sigma} (ASTEP_R)}$ & $-0.0003989593937582174$ & & fixed \\ 
+$\mathrm{gp: \log{\sigma} (ASTEP_B)}$ & $0.0006470066728956462$ & & fixed \\ 
+$\mathrm{gp: \log{\sigma} (ASTEP_Rc)}$ & $6.225533619369419e-05$ & & fixed \\ 
+$\mathrm{gp: \log{\sigma} (CHAT_I)}$ & $-0.0005720713346580864$ & & fixed \\ 
+$\mathrm{gp: \log{\sigma} (OMES_R)}$ & $0.00035173995116837995$ & & fixed \\ 
+$\mathrm{gp: \log{\sigma} (OMES_I)}$ & $0.00013135181710581707$ & & fixed \\ 
+TTV$_\mathrm{b;1}$ & $-0.0070\pm0.0020$ & d& fit \\ 
+TTV$_\mathrm{b;2}$ & $0.0062\pm0.0024$ & d& fit \\ 
+TTV$_\mathrm{b;3}$ & $0.0050\pm0.0021$ & d& fit \\ 
+TTV$_\mathrm{b;4}$ & $-0.0030\pm0.0039$ & d& fit \\ 
+TTV$_\mathrm{b;5}$ & $0.0021_{-0.0011}^{+0.0012}$ & d& fit \\ 
+TTV$_\mathrm{b;6}$ & $-0.00302\pm0.00090$ & d& fit \\ 
+TTV$_\mathrm{b;7}$ & $0.00073\pm0.00086$ & d& fit \\ 
+TTV$_\mathrm{b;8}$ & $0.0007\pm0.0021$ & d& fit \\ 
+TTV$_\mathrm{b;9}$ & $0.001\pm0.034$ & d& fit \\ 
+TTV$_\mathrm{b;10}$ & $0.002\pm0.034$ & d& fit \\ 
+TTV$_\mathrm{b;11}$ & $-0.002\pm0.034$ & d& fit \\ 
+TTV$_\mathrm{b;12}$ & $-0.000\pm0.034$ & d& fit \\ 
+TTV$_\mathrm{b;13}$ & $-0.001\pm0.034$ & d& fit \\ 
+TTV$_\mathrm{b;14}$ & $-0.002\pm0.034$ & d& fit \\ 
+TTV$_\mathrm{b;15}$ & $0.002_{-0.035}^{+0.033}$ & d& fit \\ 
