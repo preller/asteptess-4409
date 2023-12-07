@@ -1,0 +1,19 @@
+Parameter & Value & Source \\ 
+\hline 
+\multicolumn{3}{c}{\textit{Derived parameters}} \\ 
+\hline 
+Host radius over semi-major axis b; $R_\star/a_\mathrm{b}$ & $0.00911_{-0.00011}^{+0.00025}$ & derived \\ 
+Semi-major axis b over host radius; $a_\mathrm{b}/R_\star$ & $109.8_{-3.0}^{+1.3}$ & derived \\ 
+Companion radius b over semi-major axis b; $R_\mathrm{b}/a_\mathrm{b}$ & $0.000850_{-0.000013}^{+0.000032}$ & derived \\ 
+Inclination b; $i_\mathrm{b}$ (deg) & $89.917_{-0.067}^{+0.055}$ & derived \\ 
+Impact parameter b; $b_\mathrm{tra;b}$ & $0.16_{-0.11}^{+0.12}$ & derived \\ 
+Total transit duration b; $T_\mathrm{tot;b}$ (h) & $6.965_{-0.034}^{+0.043}$ & derived \\ 
+Full-transit duration b; $T_\mathrm{full;b}$ (h) & $5.738_{-0.045}^{+0.033}$ & derived \\ 
+Host density from orbit b; $\rho_\mathrm{\star;b}$ (cgs) & $2.92_{-0.23}^{+0.10}$ & derived \\ 
+Transit depth (undil.) b; $\delta_\mathrm{tr; undil; b; TESS_1800s}$ (ppt) & $11.220\pm0.090$ & derived \\ 
+Transit depth (dil.) b; $\delta_\mathrm{tr; dil; b; TESS_1800s}$ (ppt) & $11.220\pm0.090$ & derived \\ 
+Transit depth (undil.) b; $\delta_\mathrm{tr; undil; b; TESS_600s}$ (ppt) & $11.252_{-0.10}^{+0.085}$ & derived \\ 
+Transit depth (dil.) b; $\delta_\mathrm{tr; dil; b; TESS_600s}$ (ppt) & $11.252_{-0.10}^{+0.085}$ & derived \\ 
+Transit depth (undil.) b; $\delta_\mathrm{tr; undil; b; TESS_180s}$ (ppt) & $9.87_{-0.12}^{+0.16}$ & derived \\ 
+Transit depth (dil.) b; $\delta_\mathrm{tr; dil; b; TESS_180s}$ (ppt) & $9.87_{-0.12}^{+0.16}$ & derived \\ 
+Combined host density from all orbits; $rho_\mathrm{\star; combined}$ (cgs) & $2.92_{-0.23}^{+0.10}$ & derived \\ 
