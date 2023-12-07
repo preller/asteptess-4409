@@ -1,10 +1,10 @@
 #name,value,fit,bounds,label,unit,truth
 #companion b astrophysical params,,,,,,
-b_rr,0.09328632398530333,1,uniform 0.02 0.16,$R_b / R_\star$,,0.09328632398530333
-b_rsuma,0.009944756157219625,1,uniform 0.002 0.05,$(R_\star + R_b) / a_b$,,0.009944756157219625
-b_cosi,0.0013492719384718581,1,uniform 0.0 0.1,$\cos{i_b}$,,0.0013492719384718581
-b_epoch,1261.331757554,1,uniform 1260.0 1262.0,$T_{0;b}$,BJD,1261.331757554
-b_period,92.49159669417968,1,uniform 91.0 94.0,$P_b$,days,92.49159669417968
+b_rr,0.09332979624522683,1,uniform 0.02 0.16,$R_b / R_\star$,,0.09332979624522683
+b_rsuma,0.009959526382397688,1,uniform 0.002 0.05,$(R_\star + R_b) / a_b$,,0.009959526382397688
+b_cosi,0.001456595895340266,1,uniform 0.0 0.1,$\cos{i_b}$,,0.001456595895340266
+b_epoch,1261.3317903645955,0,uniform 1260.0 1262.0,$T_{0;b}$,BJD,1261.3317903645955
+b_period,92.49159726765048,0,uniform 91.0 94.0,$P_b$,days,92.49159726765048
 #limb darkening coefficients per instrument,,,,,,
 host_ldc_q1_TESS_1800s,0.6665910399495663,0,uniform 0.0 1.0,$q_{1; \mathrm{TESS_1800s}}$,,0.6665910399495663
 host_ldc_q2_TESS_1800s,0.2703765314911838,0,uniform 0.0 1.0,$q_{2; \mathrm{TESS_1800s}}$,,0.2703765314911838
@@ -12,35 +12,35 @@ host_ldc_q1_TESS_600s,0.6763154326269042,0,uniform 0.0 1.0,$q_{1; \mathrm{TESS_6
 host_ldc_q2_TESS_600s,0.23222760346172433,0,uniform 0.0 1.0,$q_{2; \mathrm{TESS_600s}}$,,0.23222760346172433
 host_ldc_q1_TESS_180s,0.14100101189218986,0,uniform 0.0 1.0,$q_{1; \mathrm{TESS_180s}}$,,0.14100101189218986
 host_ldc_q2_TESS_180s,0.14100101189218986,0,uniform 0.0 1.0,$q_{2; \mathrm{TESS_180s}}$,,0.14100101189218986
-host_ldc_q1_ASTEP_R,0.5,0,uniform 0.0 1.0,$q_{1; \mathrm{ASTEP_R}}$,,0.64
-host_ldc_q2_ASTEP_R,0.5,0,uniform 0.0 1.0,$q_{2; \mathrm{ASTEP_R}}$,,0.38
-host_ldc_q1_ASTEP_B,0.5,0,uniform 0.0 1.0,$q_{1; \mathrm{ASTEP_B}}$,,0.64
-host_ldc_q2_ASTEP_B,0.5,0,uniform 0.0 1.0,$q_{2; \mathrm{ASTEP_B}}$,,0.38
-host_ldc_q1_ASTEP_Rc,0.5,0,uniform 0.0 1.0,$q_{1; \mathrm{ASTEP_Rc}}$,,0.64
-host_ldc_q2_ASTEP_Rc,0.5,0,uniform 0.0 1.0,$q_{2; \mathrm{ASTEP_Rc}}$,,0.38
-host_ldc_q1_CHAT_I,0.5,0,uniform 0.0 1.0,$q_{1; \mathrm{CHAT_I}}$,,0.64
-host_ldc_q2_CHAT_I,0.5,0,uniform 0.0 1.0,$q_{2; \mathrm{CHAT_I}}$,,0.38
-host_ldc_q1_OMES_R,0.5,0,uniform 0.0 1.0,$q_{1; \mathrm{OMES_R}}$,,0.64
-host_ldc_q2_OMES_R,0.5,0,uniform 0.0 1.0,$q_{2; \mathrm{OMES_R}}$,,0.38
-host_ldc_q1_OMES_I,0.5,0,uniform 0.0 1.0,$q_{1; \mathrm{OMES_I}}$,,0.64
-host_ldc_q2_OMES_I,0.5,0,uniform 0.0 1.0,$q_{2; \mathrm{OMES_I}}$,,0.38
+host_ldc_q1_ASTEP_R,0.5,1,uniform 0.0 1.0,$q_{1; \mathrm{ASTEP_R}}$,,0.64
+host_ldc_q2_ASTEP_R,0.5,1,uniform 0.0 1.0,$q_{2; \mathrm{ASTEP_R}}$,,0.38
+host_ldc_q1_ASTEP_B,0.5,1,uniform 0.0 1.0,$q_{1; \mathrm{ASTEP_B}}$,,0.64
+host_ldc_q2_ASTEP_B,0.5,1,uniform 0.0 1.0,$q_{2; \mathrm{ASTEP_B}}$,,0.38
+host_ldc_q1_ASTEP_Rc,0.5,1,uniform 0.0 1.0,$q_{1; \mathrm{ASTEP_Rc}}$,,0.64
+host_ldc_q2_ASTEP_Rc,0.5,1,uniform 0.0 1.0,$q_{2; \mathrm{ASTEP_Rc}}$,,0.38
+host_ldc_q1_CHAT_I,0.5,1,uniform 0.0 1.0,$q_{1; \mathrm{CHAT_I}}$,,0.64
+host_ldc_q2_CHAT_I,0.5,1,uniform 0.0 1.0,$q_{2; \mathrm{CHAT_I}}$,,0.38
+host_ldc_q1_OMES_R,0.5,1,uniform 0.0 1.0,$q_{1; \mathrm{OMES_R}}$,,0.64
+host_ldc_q2_OMES_R,0.5,1,uniform 0.0 1.0,$q_{2; \mathrm{OMES_R}}$,,0.38
+host_ldc_q1_OMES_I,0.5,1,uniform 0.0 1.0,$q_{1; \mathrm{OMES_I}}$,,0.64
+host_ldc_q2_OMES_I,0.5,1,uniform 0.0 1.0,$q_{2; \mathrm{OMES_I}}$,,0.38
 #errors per instrument,,,,,,
-ln_err_flux_TESS_1800s,-6.818720592807077,0,uniform -8 -5,$\log{\sigma_\mathrm{TESS_1800s}}$,$\log{ \mathrm{rel. flux.} }$,-6.818720592807077
-ln_err_flux_TESS_600s,-5.1586228444383835,0,uniform -8 -5,$\log{\sigma_\mathrm{TESS_600s}}$,$\log{ \mathrm{rel. flux.} }$,-5.1586228444383835
-ln_err_flux_TESS_180s,-5.695841180628701,0,uniform -8 -5,$\log{\sigma_\mathrm{TESS_180s}}$,$\log{ \mathrm{rel. flux.} }$,-5.695841180628701
-ln_err_flux_ASTEP_R,-5,0,uniform -8 -5,$\log{\sigma_\mathrm{ASTEP_R}}$,$\log{ \mathrm{rel. flux.} }$,
-ln_err_flux_ASTEP_B,-5,0,uniform -8 -5,$\log{\sigma_\mathrm{ASTEP_B}}$,$\log{ \mathrm{rel. flux.} }$,
-ln_err_flux_ASTEP_Rc,-5,0,uniform -8 -5,$\log{\sigma_\mathrm{ASTEP_Rc}}$,$\log{ \mathrm{rel. flux.} }$,
-ln_err_flux_CHAT_I,-5,0,uniform -8 -5,$\log{\sigma_\mathrm{CHAT_I}}$,$\log{ \mathrm{rel. flux.} }$,
-ln_err_flux_OMES_R,-5,0,uniform -8 -5,$\log{\sigma_\mathrm{OMES_R}}$,$\log{ \mathrm{rel. flux.} }$,
-ln_err_flux_OMES_I,-5,0,uniform -8 -5,$\log{\sigma_\mathrm{OMES_I}}$,$\log{ \mathrm{rel. flux.} }$,
+ln_err_flux_TESS_1800s,-6.817604275727862,0,uniform -8 -5,$\log{\sigma_\mathrm{TESS_1800s}}$,$\log{ \mathrm{rel. flux.} }$,-6.817604275727862
+ln_err_flux_TESS_600s,-5.157998480629179,0,uniform -8 -5,$\log{\sigma_\mathrm{TESS_600s}}$,$\log{ \mathrm{rel. flux.} }$,-5.157998480629179
+ln_err_flux_TESS_180s,-5.695712685453811,0,uniform -8 -5,$\log{\sigma_\mathrm{TESS_180s}}$,$\log{ \mathrm{rel. flux.} }$,-5.695712685453811
+ln_err_flux_ASTEP_R,-5,1,uniform -8 -5,$\log{\sigma_\mathrm{ASTEP_R}}$,$\log{ \mathrm{rel. flux.} }$,
+ln_err_flux_ASTEP_B,-5,1,uniform -8 -5,$\log{\sigma_\mathrm{ASTEP_B}}$,$\log{ \mathrm{rel. flux.} }$,
+ln_err_flux_ASTEP_Rc,-5,1,uniform -8 -5,$\log{\sigma_\mathrm{ASTEP_Rc}}$,$\log{ \mathrm{rel. flux.} }$,
+ln_err_flux_CHAT_I,-5,1,uniform -8 -5,$\log{\sigma_\mathrm{CHAT_I}}$,$\log{ \mathrm{rel. flux.} }$,
+ln_err_flux_OMES_R,-5,1,uniform -8 -5,$\log{\sigma_\mathrm{OMES_R}}$,$\log{ \mathrm{rel. flux.} }$,
+ln_err_flux_OMES_I,-5,1,uniform -8 -5,$\log{\sigma_\mathrm{OMES_I}}$,$\log{ \mathrm{rel. flux.} }$,
 #baseline per instrument,,,,,,
 baseline_offset_flux_TESS_1800s,1.9076495754509742e-05,0,uniform -0.003 0.003,$\mathrm{gp: \log{\sigma} (TESS_1800s)}$,,1.9076495754509742e-05
 baseline_offset_flux_TESS_600s,-2.1591541868014492e-05,0,uniform -0.003 0.003,$\mathrm{gp: \log{\sigma} (TESS_600s)}$,,-2.1591541868014492e-05
 baseline_offset_flux_TESS_180s,-9.290913971707533e-05,0,uniform -0.003 0.003,$\mathrm{gp: \log{\sigma} (TESS_180s)}$,,-9.290913971707533e-05
-baseline_offset_flux_ASTEP_R,0,0,uniform -0.003 0.003,$\mathrm{gp: \log{\sigma} (ASTEP_R)}$,,
-baseline_offset_flux_ASTEP_B,0,0,uniform -0.003 0.003,$\mathrm{gp: \log{\sigma} (ASTEP_B)}$,,
-baseline_offset_flux_ASTEP_Rc,0,0,uniform -0.003 0.003,$\mathrm{gp: \log{\sigma} (ASTEP_Rc)}$,,
-baseline_offset_flux_CHAT_I,0,0,uniform -0.003 0.003,$\mathrm{gp: \log{\sigma} (CHAT_I)}$,,
-baseline_offset_flux_OMES_R,0,0,uniform -0.003 0.003,$\mathrm{gp: \log{\sigma} (OMES_R)}$,,
-baseline_offset_flux_OMES_I,0,0,uniform -0.003 0.003,$\mathrm{gp: \log{\sigma} (OMES_I)}$,,
+baseline_offset_flux_ASTEP_R,0,1,uniform -0.003 0.003,$\mathrm{gp: \log{\sigma} (ASTEP_R)}$,,
+baseline_offset_flux_ASTEP_B,0,1,uniform -0.003 0.003,$\mathrm{gp: \log{\sigma} (ASTEP_B)}$,,
+baseline_offset_flux_ASTEP_Rc,0,1,uniform -0.003 0.003,$\mathrm{gp: \log{\sigma} (ASTEP_Rc)}$,,
+baseline_offset_flux_CHAT_I,0,1,uniform -0.003 0.003,$\mathrm{gp: \log{\sigma} (CHAT_I)}$,,
+baseline_offset_flux_OMES_R,0,1,uniform -0.003 0.003,$\mathrm{gp: \log{\sigma} (OMES_R)}$,,
+baseline_offset_flux_OMES_I,0,1,uniform -0.003 0.003,$\mathrm{gp: \log{\sigma} (OMES_I)}$,,
