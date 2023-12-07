@@ -75,6 +75,7 @@ dirname = "./full_runs/allesfit_ephemerides_multi_instrument_allexcepttess"
 dirname = "./full_runs/allesfit_ephemerides_multi_instrument_alltessfixed_3"
 dirname = "./full_runs/allesfit_ttvs_multi_instrument_tessastepchatomes_fixed_all_params_v5"
 dirname = "./full_runs/allesfit_ttvs_multi_instrument_tess-only_fixed_all_params_6"
+dirname = "./runs_with_2458bjd/1_allesfit_ephemerides_multi_instrument_tess-only_open_params"
 
 allesfitter.show_initial_guess(dirname)
 allesfitter.ns_fit(dirname)

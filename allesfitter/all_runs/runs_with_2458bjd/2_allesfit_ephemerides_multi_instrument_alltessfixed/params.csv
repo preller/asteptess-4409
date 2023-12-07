@@ -1,10 +1,10 @@
 #name,value,fit,bounds,label,unit,truth
 #companion b astrophysical params,,,,,,
-b_rr,0.09328632398530333,0,uniform 0.02 0.0.16,$R_b / R_\star$,,0.09328632398530333
-b_rsuma,0.009944756157219625,0,uniform 0.002 0.05,$(R_\star + R_b) / a_b$,,0.009944756157219625
-b_cosi,0.0013492719384718581,0,uniform 0.0 0.1,$\cos{i_b}$,,0.0013492719384718581
-b_epoch,2459261.331757554,1,uniform 2459260.0 2459262.0,$T_{0;b}$,BJD,2459261.331757554
-b_period,92.49159669417968,0,uniform 91.0 94.0,$P_b$,days,92.49159669417968
+b_rr,0.09328632398530333,1,uniform 0.02 0.16,$R_b / R_\star$,,0.09328632398530333
+b_rsuma,0.009944756157219625,1,uniform 0.002 0.05,$(R_\star + R_b) / a_b$,,0.009944756157219625
+b_cosi,0.0013492719384718581,1,uniform 0.0 0.1,$\cos{i_b}$,,0.0013492719384718581
+b_epoch,1261.331757554,1,uniform 1260.0 1262.0,$T_{0;b}$,BJD,1261.331757554
+b_period,92.49159669417968,1,uniform 91.0 94.0,$P_b$,days,92.49159669417968
 #limb darkening coefficients per instrument,,,,,,
 host_ldc_q1_TESS_1800s,0.6665910399495663,0,uniform 0.0 1.0,$q_{1; \mathrm{TESS_1800s}}$,,0.6665910399495663
 host_ldc_q2_TESS_1800s,0.2703765314911838,0,uniform 0.0 1.0,$q_{2; \mathrm{TESS_1800s}}$,,0.2703765314911838
