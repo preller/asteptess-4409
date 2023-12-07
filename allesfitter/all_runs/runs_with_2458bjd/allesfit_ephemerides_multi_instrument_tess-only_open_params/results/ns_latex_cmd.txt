@@ -1,0 +1,17 @@
+\newcommand{\brr}{$0.09329_{-0.00055}^{+0.00081}$} %$R_b / R_\star=0.09329_{-0.00055}^{+0.00081}$ 
+\newcommand{\brsuma}{$0.00994_{-0.00011}^{+0.00028}$} %$(R_\star + R_b) / a_b=0.00994_{-0.00011}^{+0.00028}$ 
+\newcommand{\bcosi}{$0.00135_{-0.00094}^{+0.0012}$} %$\cos{i_b}=0.00135_{-0.00094}^{+0.0012}$ 
+\newcommand{\bepoch}{$2459261.33176_{-0.00050}^{+0.00053}$} %$T_{0;b}=2459261.33176_{-0.00050}^{+0.00053}$ BJD
+\newcommand{\bperiod}{$92.49160\pm0.00012$} %$P_b=92.49160\pm0.00012$ days
+\newcommand{\hostldcqoneTESSone800s}{$0.5$} %$q_{1; \mathrm{TESS_1800s}}=0.5$ 
+\newcommand{\hostldcqtwoTESSone800s}{$0.5$} %$q_{2; \mathrm{TESS_1800s}}=0.5$ 
+\newcommand{\hostldcqoneTESS600s}{$0.5$} %$q_{1; \mathrm{TESS_600s}}=0.5$ 
+\newcommand{\hostldcqtwoTESS600s}{$0.5$} %$q_{2; \mathrm{TESS_600s}}=0.5$ 
+\newcommand{\hostldcqoneTESSone80s}{$0.5$} %$q_{1; \mathrm{TESS_180s}}=0.5$ 
+\newcommand{\hostldcqtwoTESSone80s}{$0.0$} %$q_{2; \mathrm{TESS_180s}}=0.0$ 
+\newcommand{\lnerrfluxTESSone800s}{$-6.817\pm0.052$} %$\log{\sigma_\mathrm{TESS_1800s}}=-6.817\pm0.052$ $\log{ \mathrm{rel. flux.} }$
+\newcommand{\lnerrfluxTESS600s}{$-5.1581\pm0.0067$} %$\log{\sigma_\mathrm{TESS_600s}}=-5.1581\pm0.0067$ $\log{ \mathrm{rel. flux.} }$
+\newcommand{\lnerrfluxTESSone80s}{$-5.695\pm0.027$} %$\log{\sigma_\mathrm{TESS_180s}}=-5.695\pm0.027$ $\log{ \mathrm{rel. flux.} }$
+\newcommand{\baselineoffsetfluxTESSone800s}{$0.0000\pm0.0020$} %$\mathrm{gp: \log{\sigma} (TESS_1800s)}=0.0000\pm0.0020$ 
+\newcommand{\baselineoffsetfluxTESS600s}{$-0.0000_{-0.0020}^{+0.0021}$} %$\mathrm{gp: \log{\sigma} (TESS_600s)}=-0.0000_{-0.0020}^{+0.0021}$ 
+\newcommand{\baselineoffsetfluxTESSone80s}{$-0.0001_{-0.0020}^{+0.0021}$} %$\mathrm{gp: \log{\sigma} (TESS_180s)}=-0.0001_{-0.0020}^{+0.0021}$ 
