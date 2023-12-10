@@ -1,10 +1,10 @@
 #name,value,fit,bounds,label,unit,truth
 #companion b astrophysical params,,,,,,
-b_rr,0.09328632398530333,1,uniform 0.02 0.16,$R_b / R_\star$,,0.09328632398530333
-b_rsuma,0.009944756157219625,1,uniform 0.002 0.05,$(R_\star + R_b) / a_b$,,0.009944756157219625
-b_cosi,0.0013492719384718581,1,uniform 0.0 0.1,$\cos{i_b}$,,0.0013492719384718581
-b_epoch,2459261.331757554,0,uniform 2459260.0 2459262.0,$T_{0;b}$,BJD,2459261.331757554
-b_period,92.49159669417968,0,uniform 91.0 94.0,$P_b$,days,92.49159669417968
+b_rr,0.09332979624522683,1,uniform 0.02 0.16,$R_b / R_\star$,,0.09332979624522683
+b_rsuma,0.009959526382397688,1,uniform 0.002 0.05,$(R_\star + R_b) / a_b$,,0.009959526382397688
+b_cosi,0.001456595895340266,1,uniform 0.0 0.1,$\cos{i_b}$,,0.001456595895340266
+b_epoch,1261.3317903645955,0,uniform 1260.0 1262.0,$T_{0;b}$,BJD,1261.3317903645955
+b_period,92.49159726765048,0,uniform 91.0 94.0,$P_b$,days,92.49159726765048
 #limb darkening coefficients per instrument,,,,,,
 host_ldc_q1_TESS_1800s,0.6665910399495663,0,uniform 0.0 1.0,$q_{1; \mathrm{TESS_1800s}}$,,0.6665910399495663
 host_ldc_q2_TESS_1800s,0.2703765314911838,0,uniform 0.0 1.0,$q_{2; \mathrm{TESS_1800s}}$,,0.2703765314911838
@@ -12,38 +12,38 @@ host_ldc_q1_TESS_600s,0.6763154326269042,0,uniform 0.0 1.0,$q_{1; \mathrm{TESS_6
 host_ldc_q2_TESS_600s,0.23222760346172433,0,uniform 0.0 1.0,$q_{2; \mathrm{TESS_600s}}$,,0.23222760346172433
 host_ldc_q1_TESS_180s,0.14100101189218986,0,uniform 0.0 1.0,$q_{1; \mathrm{TESS_180s}}$,,0.14100101189218986
 host_ldc_q2_TESS_180s,0.14100101189218986,0,uniform 0.0 1.0,$q_{2; \mathrm{TESS_180s}}$,,0.14100101189218986
-host_ldc_q1_ASTEP_R,0.37619995235802356,0,uniform 0.0 1.0,$q_{1; \mathrm{ASTEP_R}}$,,0.37619995235802356
-host_ldc_q2_ASTEP_R,0.6647599540701162,0,uniform 0.0 1.0,$q_{2; \mathrm{ASTEP_R}}$,,0.6647599540701162
-host_ldc_q1_ASTEP_B,0.14042312068938798,0,uniform 0.0 1.0,$q_{1; \mathrm{ASTEP_B}}$,,0.14042312068938798
-host_ldc_q2_ASTEP_B,0.26183022595966265,0,uniform 0.0 1.0,$q_{2; \mathrm{ASTEP_B}}$,,0.26183022595966265
-host_ldc_q1_ASTEP_Rc,0.3089651150288074,0,uniform 0.0 1.0,$q_{1; \mathrm{ASTEP_Rc}}$,,0.3089651150288074
-host_ldc_q2_ASTEP_Rc,0.5370348201281953,0,uniform 0.0 1.0,$q_{2; \mathrm{ASTEP_Rc}}$,,0.5370348201281953
-host_ldc_q1_CHAT_I,0.9683809266666001,0,uniform 0.0 1.0,$q_{1; \mathrm{CHAT_I}}$,,0.9683809266666001
-host_ldc_q2_CHAT_I,0.9735286984463888,0,uniform 0.0 1.0,$q_{2; \mathrm{CHAT_I}}$,,0.9735286984463888
-host_ldc_q1_OMES_R,0.016133063989104447,0,uniform 0.0 1.0,$q_{1; \mathrm{OMES_R}}$,,0.016133063989104447
-host_ldc_q2_OMES_R,0.2833459627695687,0,uniform 0.0 1.0,$q_{2; \mathrm{OMES_R}}$,,0.2833459627695687
-host_ldc_q1_OMES_I,0.9742176158617046,0,uniform 0.0 1.0,$q_{1; \mathrm{OMES_I}}$,,0.9742176158617046
-host_ldc_q2_OMES_I,0.9459495568650491,0,uniform 0.0 1.0,$q_{2; \mathrm{OMES_I}}$,,0.9459495568650491
+host_ldc_q1_ASTEP_R,0.3275959175902794,0,uniform 0.0 1.0,$q_{1; \mathrm{ASTEP_R}}$,,0.3275959175902794
+host_ldc_q2_ASTEP_R,0.7744657376797474,0,uniform 0.0 1.0,$q_{2; \mathrm{ASTEP_R}}$,,0.7744657376797474
+host_ldc_q1_ASTEP_B,0.14349460618798116,0,uniform 0.0 1.0,$q_{1; \mathrm{ASTEP_B}}$,,0.14349460618798116
+host_ldc_q2_ASTEP_B,0.2485352533382883,0,uniform 0.0 1.0,$q_{2; \mathrm{ASTEP_B}}$,,0.2485352533382883
+host_ldc_q1_ASTEP_Rc,0.39606650016182277,0,uniform 0.0 1.0,$q_{1; \mathrm{ASTEP_Rc}}$,,0.39606650016182277
+host_ldc_q2_ASTEP_Rc,0.4261938968881124,0,uniform 0.0 1.0,$q_{2; \mathrm{ASTEP_Rc}}$,,0.4261938968881124
+host_ldc_q1_CHAT_I,0.027863980948805364,0,uniform 0.0 1.0,$q_{1; \mathrm{CHAT_I}}$,,0.027863980948805364
+host_ldc_q2_CHAT_I,0.619386104894521,0,uniform 0.0 1.0,$q_{2; \mathrm{CHAT_I}}$,,0.619386104894521
+host_ldc_q1_OMES_R,0.8621894395701154,0,uniform 0.0 1.0,$q_{1; \mathrm{OMES_R}}$,,0.8621894395701154
+host_ldc_q2_OMES_R,0.5983821320877577,0,uniform 0.0 1.0,$q_{2; \mathrm{OMES_R}}$,,0.5983821320877577
+host_ldc_q1_OMES_I,0.9801108589876117,0,uniform 0.0 1.0,$q_{1; \mathrm{OMES_I}}$,,0.9801108589876117
+host_ldc_q2_OMES_I,0.958653792123359,0,uniform 0.0 1.0,$q_{2; \mathrm{OMES_I}}$,,0.958653792123359
 #errors per instrument,,,,,,
-ln_err_flux_TESS_1800s,-6.818720592807077,0,uniform -8 -5,$\log{\sigma_\mathrm{TESS_1800s}}$,$\log{ \mathrm{rel. flux.} }$,
-ln_err_flux_TESS_600s,-5.1586228444383835,0,uniform -8 -5,$\log{\sigma_\mathrm{TESS_600s}}$,$\log{ \mathrm{rel. flux.} }$,
-ln_err_flux_TESS_180s,-5.695841180628701,0,uniform -8 -5,$\log{\sigma_\mathrm{TESS_180s}}$,$\log{ \mathrm{rel. flux.} }$,
-ln_err_flux_ASTEP_R,-5.531401420287221,0,uniform -8 -5,$\log{\sigma_\mathrm{ASTEP_R}}$,$\log{ \mathrm{rel. flux.} }$,
-ln_err_flux_ASTEP_B,-5.540272547279426,0,uniform -8 -5,$\log{\sigma_\mathrm{ASTEP_B}}$,$\log{ \mathrm{rel. flux.} }$,
-ln_err_flux_ASTEP_Rc,-5.714429760956918,0,uniform -8 -5,$\log{\sigma_\mathrm{ASTEP_Rc}}$,$\log{ \mathrm{rel. flux.} }$,
-ln_err_flux_CHAT_I,-6.143277097673829,0,uniform -8 -5,$\log{\sigma_\mathrm{CHAT_I}}$,$\log{ \mathrm{rel. flux.} }$,
-ln_err_flux_OMES_R,-5.008611166223599,0,uniform -8 -5,$\log{\sigma_\mathrm{OMES_R}}$,$\log{ \mathrm{rel. flux.} }$,
-ln_err_flux_OMES_I,-5.711917497718392,0,uniform -8 -5,$\log{\sigma_\mathrm{OMES_I}}$,$\log{ \mathrm{rel. flux.} }$,
+ln_err_flux_TESS_1800s,-6.817604275727862,0,uniform -8 -5,$\log{\sigma_\mathrm{TESS_1800s}}$,$\log{ \mathrm{rel. flux.} }$,
+ln_err_flux_TESS_600s,-5.157998480629179,0,uniform -8 -5,$\log{\sigma_\mathrm{TESS_600s}}$,$\log{ \mathrm{rel. flux.} }$,
+ln_err_flux_TESS_180s,-5.695712685453811,0,uniform -8 -5,$\log{\sigma_\mathrm{TESS_180s}}$,$\log{ \mathrm{rel. flux.} }$,
+ln_err_flux_ASTEP_R,-5.535471576601088,0,uniform -8 -5,$\log{\sigma_\mathrm{ASTEP_R}}$,$\log{ \mathrm{rel. flux.} }$,
+ln_err_flux_ASTEP_B,-5.550068209776452,0,uniform -8 -5,$\log{\sigma_\mathrm{ASTEP_B}}$,$\log{ \mathrm{rel. flux.} }$,
+ln_err_flux_ASTEP_Rc,-5.702969942008912,0,uniform -8 -5,$\log{\sigma_\mathrm{ASTEP_Rc}}$,$\log{ \mathrm{rel. flux.} }$,
+ln_err_flux_CHAT_I,-6.487426138195987,0,uniform -8 -5,$\log{\sigma_\mathrm{CHAT_I}}$,$\log{ \mathrm{rel. flux.} }$,
+ln_err_flux_OMES_R,-5.002164948633702,0,uniform -8 -5,$\log{\sigma_\mathrm{OMES_R}}$,$\log{ \mathrm{rel. flux.} }$,
+ln_err_flux_OMES_I,-5.71016324089474,0,uniform -8 -5,$\log{\sigma_\mathrm{OMES_I}}$,$\log{ \mathrm{rel. flux.} }$,
 #baseline per instrument,,,,,,
 baseline_offset_flux_TESS_1800s,1.9076495754509742e-05,0,uniform -0.003 0.003,$\mathrm{gp: \log{\sigma} (TESS_1800s)}$,,
 baseline_offset_flux_TESS_600s,-2.1591541868014492e-05,0,uniform -0.003 0.003,$\mathrm{gp: \log{\sigma} (TESS_600s)}$,,
 baseline_offset_flux_TESS_180s,-9.290913971707533e-05,0,uniform -0.003 0.003,$\mathrm{gp: \log{\sigma} (TESS_180s)}$,,
-baseline_offset_flux_ASTEP_R,-0.0003989593937582174,0,uniform -0.003 0.003,$\mathrm{gp: \log{\sigma} (ASTEP_R)}$,,
+baseline_offset_flux_ASTEP_R,5.314304742790217e-06,0,uniform -0.003 0.003,$\mathrm{gp: \log{\sigma} (ASTEP_R)}$,,
 baseline_offset_flux_ASTEP_B,0.0006470066728956462,0,uniform -0.003 0.003,$\mathrm{gp: \log{\sigma} (ASTEP_B)}$,,
-baseline_offset_flux_ASTEP_Rc,6.225533619369419e-05,0,uniform -0.003 0.003,$\mathrm{gp: \log{\sigma} (ASTEP_Rc)}$,,
-baseline_offset_flux_CHAT_I,-0.0005720713346580864,0,uniform -0.003 0.003,$\mathrm{gp: \log{\sigma} (CHAT_I)}$,,
-baseline_offset_flux_OMES_R,0.00035173995116837995,0,uniform -0.003 0.003,$\mathrm{gp: \log{\sigma} (OMES_R)}$,,
-baseline_offset_flux_OMES_I,0.00013135181710581707,0,uniform -0.003 0.003,$\mathrm{gp: \log{\sigma} (OMES_I)}$,,
+baseline_offset_flux_ASTEP_Rc,0.0001278524054063256,0,uniform -0.003 0.003,$\mathrm{gp: \log{\sigma} (ASTEP_Rc)}$,,
+baseline_offset_flux_CHAT_I,0.00020495726448701082,0,uniform -0.003 0.003,$\mathrm{gp: \log{\sigma} (CHAT_I)}$,,
+baseline_offset_flux_OMES_R,-9.749538624999766e-05,0,uniform -0.003 0.003,$\mathrm{gp: \log{\sigma} (OMES_R)}$,,
+baseline_offset_flux_OMES_I,0.0007150750788720277,0,uniform -0.003 0.003,$\mathrm{gp: \log{\sigma} (OMES_I)}$,,
 #TTV companion b
 b_ttv_transit_1,0,1,uniform -0.05 0.05,TTV$_\mathrm{b;1}$,d,
 b_ttv_transit_2,0,1,uniform -0.05 0.05,TTV$_\mathrm{b;2}$,d,
@@ -60,3 +60,4 @@ b_ttv_transit_12,0,1,uniform -0.05 0.05,TTV$_\mathrm{b;12}$,d,
 b_ttv_transit_13,0,1,uniform -0.05 0.05,TTV$_\mathrm{b;13}$,d,
 b_ttv_transit_14,0,1,uniform -0.05 0.05,TTV$_\mathrm{b;14}$,d,
 b_ttv_transit_15,0,1,uniform -0.05 0.05,TTV$_\mathrm{b;15}$,d,
+b_ttv_transit_16,0,1,uniform -0.05 0.05,TTV$_\mathrm{b;16}$,d,
