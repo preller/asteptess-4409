@@ -145,85 +145,13 @@ all_instruments = instruments = list(alles.data.keys())
 # Keep those only with photometry
 instruments = [
     inst for inst in instruments if inst in alles.data['inst_phot']['inst']]
-# instruments = list(alles.data['inst_phot']['inst'])
 
 print(instruments)
-# ['TESS_1800s', 'TESS_600s', 'TESS_180s', 'ASTEP_R', 'ASTEP_B', 'ASTEP_Rc', 'CHAT_I', 'OMES_R', 'OMES_I', 'inst_phot', 'inst_rv', 'inst_rv2', 'b_tmid_observed_transits']
-# breakpoint()
 
-# For each instrument, print the length of model
-# for instrument in instruments:
-#     print(len(alles.data[instrument]['flux']))
 
 transits, models = get_transit_info(instruments, 5)
 
-# # Get the number of transits for each instrument
-# n_transits = {}
-# for instrument in instruments:
-#     n_transits[instrument] = len(transits[instrument])
 
-# # # Get the number of transits for all instruments
-# # n_transits_all = sum(n_transits.values())
-
-# # Print all ingress times
-# all_ingress_times = []
-# all_egress_times = []
-# for instrument in instruments:
-#     print(f'Ingress times for instrument {instrument}')
-#     for transit in transits[instrument]:
-#         _, _, ingress_time, _, _ = transit
-#         print(ingress_time)
-#     print()
-#     # Save it in a flat array
-#     all_ingress_times.append(
-#         [transit[2] for transit in transits[instrument]])
-#     all_egress_times.append([transit[3] for transit in transits[instrument]])
-
-
-# # Flatten the arrays
-# all_ingress_times = [item for sublist in all_ingress_times for item in sublist]
-# all_egress_times = [item for sublist in all_egress_times for item in sublist]
-
-# all_transit_midtimes = alles.data['b_tmid_observed_transits']
-
-# # Check if the number of transits is the same
-# # if len(all_ingress_times) != len(all_transit_midtimes):
-
-# # Check if the midtimes are inside the ingress and egress times
-
-# # Flatten the all_transit_midtimes list if it's nested
-# if all(isinstance(i, list) for i in all_transit_midtimes):
-#     all_transit_midtimes = [
-#         item for sublist in all_transit_midtimes for item in sublist]
-
-# # Sort all
-# all_ingress_times.sort()
-# all_egress_times.sort()
-# all_transit_midtimes.sort()
-
-# # Check if the number of transits is the same
-# if len(all_ingress_times) != len(all_transit_midtimes):
-#     # raise Exception('The number of transits and midtimes do not match')
-#     print('The number of transits and midtimes do not match')
-
-# breakpoint()
-# # Check if the midtimes are inside the ingress and egress times
-# index = 0
-# for instrument in instruments:
-#     for transit in transits[instrument]:
-#         # Assuming transit is a tuple (ingress_index, egress_index, ingress_time, egress_time, transit_duration)
-#         ingress_time, egress_time = transit[2], transit[3]
-#         # Get the corresponding midtime
-#         midtime = all_transit_midtimes[index]
-#         if not ingress_time <= midtime <= egress_time:
-#             raise Exception(
-#                 f'Midtime {midtime} is not between ingress time {ingress_time} and egress time {egress_time} that come from instrument {instrument}')
-#         else:
-#             print(
-#                 f'Midtime {midtime} is between ingress time {ingress_time} and egress time {egress_time} that come from instrument {instrument}')
-#         index += 1
-
-# Make a BEAUTIFUL plot using the ingress times
 
 # ASSUMPTION:: All transit midtimes are captured by the ingress and egress times
 # Create and sort the all_transit_midtimes, all_ingress_times, and all_egress_times arrays
