@@ -1,0 +1,43 @@
+#name,median,lower_error,upper_error,label,unit
+#Fitted parameters,,,
+b_rr,0.09391634844652395,0.0003407079729838697,0.0003676230855075846,$R_b / R_\star$,
+b_rsuma,0.009928411483177208,4.5984397563827994e-05,7.488749792653251e-05,$(R_\star + R_b) / a_b$,
+b_cosi,0.0005726986805943823,0.0003934845258369748,0.0006530603017890019,$\cos{i_b}$,
+b_epoch,1353.823387632246,(fixed),(fixed),$T_{0;b}$,BJD
+b_period,92.49159726765048,(fixed),(fixed),$P_b$,days
+host_ldc_q1_TESS_1800s,0.6665910399495663,(fixed),(fixed),$q_{1; \mathrm{TESS_1800s}}$,
+host_ldc_q2_TESS_1800s,0.2703765314911838,(fixed),(fixed),$q_{2; \mathrm{TESS_1800s}}$,
+host_ldc_q1_TESS_600s,0.6763154326269042,(fixed),(fixed),$q_{1; \mathrm{TESS_600s}}$,
+host_ldc_q2_TESS_600s,0.23222760346172433,(fixed),(fixed),$q_{2; \mathrm{TESS_600s}}$,
+host_ldc_q1_TESS_180s,0.14100101189218986,(fixed),(fixed),$q_{1; \mathrm{TESS_180s}}$,
+host_ldc_q2_TESS_180s,0.14100101189218986,(fixed),(fixed),$q_{2; \mathrm{TESS_180s}}$,
+host_ldc_q1_ASTEP_R,0.3275959175902794,0.08025693801875045,0.12522523402807811,$q_{1; \mathrm{ASTEP_R}}$,
+host_ldc_q2_ASTEP_R,0.7744657376797474,0.21381850692776927,0.1528170021355204,$q_{2; \mathrm{ASTEP_R}}$,
+host_ldc_q1_ASTEP_B,0.14349460618798116,0.09918996618930034,0.18300876079680212,$q_{1; \mathrm{ASTEP_B}}$,
+host_ldc_q2_ASTEP_B,0.2485352533382883,0.18471499325052285,0.3332016156333605,$q_{2; \mathrm{ASTEP_B}}$,
+host_ldc_q1_ASTEP_Rc,0.39606650016182277,0.21412400200418838,0.27763487404669285,$q_{1; \mathrm{ASTEP_Rc}}$,
+host_ldc_q2_ASTEP_Rc,0.4261938968881124,0.26047237394202255,0.3113537736795481,$q_{2; \mathrm{ASTEP_Rc}}$,
+host_ldc_q1_CHAT_I,0.027863980948805364,0.02156996523858938,0.04977248345178423,$q_{1; \mathrm{CHAT_I}}$,
+host_ldc_q2_CHAT_I,0.619386104894521,0.35076007063058834,0.2654208555212464,$q_{2; \mathrm{CHAT_I}}$,
+host_ldc_q1_OMES_R,0.8621894395701154,0.15327103003298037,0.0992520464173845,$q_{1; \mathrm{OMES_R}}$,
+host_ldc_q2_OMES_R,0.5983821320877577,0.12688794628763284,0.14121946290652077,$q_{2; \mathrm{OMES_R}}$,
+host_ldc_q1_OMES_I,0.9801108589876117,0.027949253519331085,0.014491186119351518,$q_{1; \mathrm{OMES_I}}$,
+host_ldc_q2_OMES_I,0.958653792123359,0.05684206687314264,0.03027320192934424,$q_{2; \mathrm{OMES_I}}$,
+ln_err_flux_TESS_1800s,-6.817604275727862,(fixed),(fixed),$\log{\sigma_\mathrm{TESS_1800s}}$,$\log{ \mathrm{rel. flux.} }$
+ln_err_flux_TESS_600s,-5.157998480629179,(fixed),(fixed),$\log{\sigma_\mathrm{TESS_600s}}$,$\log{ \mathrm{rel. flux.} }$
+ln_err_flux_TESS_180s,-5.695712685453811,(fixed),(fixed),$\log{\sigma_\mathrm{TESS_180s}}$,$\log{ \mathrm{rel. flux.} }$
+ln_err_flux_ASTEP_R,-5.535471576601088,0.026649986423975314,0.027359471636696497,$\log{\sigma_\mathrm{ASTEP_R}}$,$\log{ \mathrm{rel. flux.} }$
+ln_err_flux_ASTEP_B,-5.550068209776452,0.029139328349547355,0.029477986615260576,$\log{\sigma_\mathrm{ASTEP_B}}$,$\log{ \mathrm{rel. flux.} }$
+ln_err_flux_ASTEP_Rc,-5.702969942008912,0.04941447311325575,0.0548743482581342,$\log{\sigma_\mathrm{ASTEP_Rc}}$,$\log{ \mathrm{rel. flux.} }$
+ln_err_flux_CHAT_I,-6.487426138195987,0.057008423460258584,0.0585943048464328,$\log{\sigma_\mathrm{CHAT_I}}$,$\log{ \mathrm{rel. flux.} }$
+ln_err_flux_OMES_R,-5.002164948633702,0.003442652287785286,0.0015907957067788914,$\log{\sigma_\mathrm{OMES_R}}$,$\log{ \mathrm{rel. flux.} }$
+ln_err_flux_OMES_I,-5.71016324089474,0.04612510264662539,0.04660396448153037,$\log{\sigma_\mathrm{OMES_I}}$,$\log{ \mathrm{rel. flux.} }$
+baseline_offset_flux_TESS_1800s,1.9076495754509742e-05,(fixed),(fixed),$\mathrm{gp: \log{\sigma} (TESS_1800s)}$,
+baseline_offset_flux_TESS_600s,-2.1591541868014492e-05,(fixed),(fixed),$\mathrm{gp: \log{\sigma} (TESS_600s)}$,
+baseline_offset_flux_TESS_180s,-9.290913971707533e-05,(fixed),(fixed),$\mathrm{gp: \log{\sigma} (TESS_180s)}$,
+baseline_offset_flux_ASTEP_R,0.00034637862460815865,0.0021170814988071287,0.001827059030440815,$\mathrm{gp: \log{\sigma} (ASTEP_R)}$,
+baseline_offset_flux_ASTEP_B,5.314304742790217e-06,0.0020096981184124377,0.001986402783851306,$\mathrm{gp: \log{\sigma} (ASTEP_B)}$,
+baseline_offset_flux_ASTEP_Rc,0.0001278524054063256,0.002025616655875329,0.0018797102849738285,$\mathrm{gp: \log{\sigma} (ASTEP_Rc)}$,
+baseline_offset_flux_CHAT_I,0.00020495726448701082,0.0020606344942461804,0.0019032186587288483,$\mathrm{gp: \log{\sigma} (CHAT_I)}$,
+baseline_offset_flux_OMES_R,-9.749538624999766e-05,0.0018430045888120842,0.001932776462538005,$\mathrm{gp: \log{\sigma} (OMES_R)}$,
+baseline_offset_flux_OMES_I,0.0007150750788720277,0.0021182694869418778,0.0015757130818125683,$\mathrm{gp: \log{\sigma} (OMES_I)}$,
