@@ -196,6 +196,16 @@ for midtime, times in transit_times.items():
             raise Exception(
                 f'Egress time {egress_time} is not within the tolerance of any midtime')
 
+
+# plot all the models in the same plot, make it a long plot
+def plot_all_models(models, save_path=None):
+    for instrument, model in models.items():
+        plt.plot(time, model, label=instrument)
+    plt.legend()
+    if save_path is not None:
+        plt.savefig(save_path, dpi=300, bbox_inches='tight')
+
+
+plot_all_models(models, save_path='./PLOT10a.png')
+
 breakpoint()
-# 1538 no egress, same for 1816
-# and 2278 has 1 ingress 2 egress
