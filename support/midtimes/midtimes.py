@@ -1,9 +1,9 @@
 from __future__ import print_function, division, absolute_import
-import sys
-import os
-import allesfitter
+# import sys
+# import os
 import matplotlib.pyplot as plt
-import numpy as np
+import allesfitter
+# import numpy as np
 
 # ::: plotting settings
 import seaborn as sns
@@ -67,11 +67,11 @@ def get_transit_info(instruments, n, key='flux', tolerance=1e-6):
 
         # Check if the key is in the instrument's data
         if key not in alles.data[instrument]:
-            raise Exception(
+            raise ValueError(
                 f'Key "{key}" not found in instrument "{instrument}"')
         # Check if the length of the key array is zero
         elif len(alles.data[instrument][key]) == 0:
-            raise Exception(
+            raise ValueError(
                 f'Key "{key}" in instrument "{instrument}" has no entries')
 
         # Load the time, flux, and flux_err
@@ -183,29 +183,29 @@ for instrument in instruments:
 # Check if each midtime has at least one ingress or one egress time
 for midtime, times in transit_times.items():
     if not times['ingress_times'] and not times['egress_times']:
-        raise Exception(f'Midtime {midtime} has no ingress or egress times')
+        raise ValueError(f'Midtime {midtime} has no ingress or egress times')
 
 # Check if each ingress and egress time that shows up is within the tolerance of at least one midtime
 for midtime, times in transit_times.items():
     for ingress_time in times['ingress_times']:
         if not any(abs(midtime - ingress_time) <= tolerance for midtime in all_transit_midtimes):
-            raise Exception(
+            raise ValueError(
                 f'Ingress time {ingress_time} is not within the tolerance of any midtime')
     for egress_time in times['egress_times']:
         if not any(abs(midtime - egress_time) <= tolerance for midtime in all_transit_midtimes):
-            raise Exception(
+            raise ValueError(
                 f'Egress time {egress_time} is not within the tolerance of any midtime')
 
 
-# plot all the models in the same plot, make it a long plot
-def plot_all_models(models, save_path=None):
-    for instrument, model in models.items():
-        plt.plot(time, model, label=instrument)
-    plt.legend()
-    if save_path is not None:
-        plt.savefig(save_path, dpi=300, bbox_inches='tight')
+# # plot all the models in the same plot, make it a long plot
+# def plot_all_models(models, save_path=None):
+#     for instrument, model in models.items():
+#         plt.plot(time, model, label=instrument)
+#     plt.legend()
+#     if save_path is not None:
+#         plt.savefig(save_path, dpi=300, bbox_inches='tight')
 
 
-plot_all_models(models, save_path='./PLOT10a.png')
+# plot_all_models(models, save_path='./PLOT10a.png')
 
 breakpoint()
