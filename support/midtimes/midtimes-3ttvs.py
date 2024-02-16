@@ -198,3 +198,16 @@ for midtime, times in transit_times.items():
 
 
 breakpoint()
+
+# Plot the transit info
+plot_transit_info(model, time, transits[inst], save_path='./PLOT10c.png')
+
+# # Save the data to a CSV file
+# csv_file_path = './transit_times.csv'
+# with open(csv_file_path, 'w') as f:
+#     f.write('N transit, t0 [BJD], sigma t0 [d]\n')
+#     for midtime, times in transit_times.items():
+#         n_transit = max(len(times['ingress_times']), len(times['egress_times']))
+#         f.write(f'{n_transit}, {midtime}, 0.000\n')
+
+# Make a plot
